@@ -1,0 +1,2812 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Website portofolio Arjun Yuda Firwanda - Coding Educator, Informatics Teacher, dan Developer."
+    />
+
+    <meta name="author" content="Arjun Yuda Firwanda" />
+    <meta name="theme-color" content="#080e24" />
+
+    <title>Arjun Yuda Firwanda | Personal Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <script>
+      try {
+        if (localStorage.getItem("portfolio-theme") === "light") {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      } catch (error) {
+        console.warn("Theme preference could not be loaded.", error);
+      }
+    </script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- =================================
+         NAVBAR
+    ================================== -->
+
+    <header class="site-header" id="header">
+      <nav class="navbar container">
+        <!-- Brand / Logo -->
+        <a href="#home" class="brand">
+          <img
+            src="assets/images/favicon.png"
+            alt="Logo Arjun Yuda Firwanda"
+            class="brand-logo"
+          />
+
+          <div class="brand-text">
+            <span class="brand-name">ARJUN YUDA FIRWANDA</span>
+            <span class="brand-subtitle">PORTFOLIO</span>
+          </div>
+        </a>
+
+        <!-- Navigation -->
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+
+          <li>
+            <a href="#certifications" class="nav-link">Certifications</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Contact Button -->
+        <a href="#contact" class="nav-contact">
+          Let's Connect
+          <span>↗</span>
+        </a>
+
+        <!-- Theme Switcher -->
+        <button
+          type="button"
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Aktifkan light mode"
+          aria-pressed="false"
+          title="Switch Theme"
+        >
+          <span class="theme-toggle-icon" id="theme-icon"> ☀ </span>
+
+          <span class="theme-toggle-label" id="theme-label"> Light Mode </span>
+        </button>
+
+        <!-- Mobile Menu -->
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- =================================
+         HERO SECTION
+    ================================== -->
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+
+        <div class="container hero-container">
+          <!-- Left Content -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="status-dot"></span>
+
+              <span>CODING EDUCATOR & DEVELOPER</span>
+            </div>
+
+            <p class="hero-greeting">Hello, welcome to my portfolio!</p>
+
+            <h1 class="hero-title">
+              I'm <span class="name-highlight">Arjun Yuda</span>
+
+              <span class="title-line">
+                Firwanda<span class="gradient-dot">.</span>
+              </span>
+            </h1>
+
+            <h2 class="hero-profession">
+              Calon Guru Informatika
+
+              <span class="profession-divider">|</span>
+
+              <span>Developer</span>
+            </h2>
+
+            <p class="hero-description">
+              Saya memiliki ketertarikan dalam dunia pendidikan dan teknologi,
+              khususnya pengembangan pembelajaran coding, aplikasi web, serta
+              proyek Internet of Things. Saya percaya bahwa teknologi dapat
+              menjadi sarana untuk menciptakan pembelajaran yang kreatif,
+              inovatif, dan bermakna.
+            </p>
+
+            <!-- Skills Tags -->
+            <div class="hero-tags">
+              <span>
+                <i class="fa-brands fa-python" aria-hidden="true"></i>
+                Python
+              </span>
+
+              <span>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+                Web Development
+              </span>
+
+              <span>
+                <i class="fa-brands fa-laravel" aria-hidden="true"></i>
+                Laravel
+              </span>
+
+              <span>
+                <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+                IoT
+              </span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                Explore My Projects
+
+                <span>↗</span>
+              </a>
+
+              <a href="#contact" class="btn btn-outline">
+                Contact Me
+
+                <span>→</span>
+              </a>
+            </div>
+
+            <!-- Social / Professional Identity -->
+            <div class="hero-social">
+              <span class="social-label"> EXPLORE MY JOURNEY </span>
+
+              <span class="social-line"></span>
+
+              <span class="social-text"> Learn · Build · Inspire </span>
+            </div>
+          </div>
+
+          <!-- Right Visual -->
+          <div class="hero-visual">
+            <div class="visual-glow"></div>
+
+            <div class="visual-card">
+              <div class="visual-top">
+                <div class="window-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span class="visual-label"> DEVELOPER PROFILE </span>
+              </div>
+
+              <!-- Profile Logo -->
+              <div class="profile-image-wrapper">
+                <div class="profile-ring"></div>
+
+                <img
+                  src="assets/images/logo.png"
+                  alt="Branding Arjun Yuda Firwanda"
+                  class="profile-logo"
+                />
+              </div>
+
+              <div class="visual-name">ARJUN YUDA FIRWANDA</div>
+
+              <div class="visual-role">Coding Educator · Developer</div>
+
+              <!-- Technology Cards -->
+              <div class="technology-list">
+                <div class="technology-item">
+                  <span class="tech-icon python-icon"> Py </span>
+
+                  <div>
+                    <strong>Python Development</strong>
+                    <small>Programming & Logic</small>
+                  </div>
+
+                  <span class="tech-status"></span>
+                </div>
+
+                <div class="technology-item">
+                  <span class="tech-icon web-icon"> &lt;/&gt; </span>
+
+                  <div>
+                    <strong>Web Development</strong>
+                    <small>HTML · CSS · JavaScript</small>
+                  </div>
+
+                  <span class="tech-status"></span>
+                </div>
+
+                <div class="technology-item">
+                  <span class="tech-icon iot-icon"> IoT </span>
+
+                  <div>
+                    <strong>Internet of Things</strong>
+                    <small>Arduino · ESP32</small>
+                  </div>
+
+                  <span class="tech-status"></span>
+                </div>
+              </div>
+
+              <!-- Decorative Code -->
+              <div class="visual-footer">
+                <span class="code-symbol">&lt;/&gt;</span>
+
+                <span> Turning Ideas Into Innovation </span>
+              </div>
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="floating-badge">
+              <span class="floating-icon">✦</span>
+
+              <div>
+                <strong>Keep Learning</strong>
+                <small>Keep Creating</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Scroll Indicator -->
+        <a href="#about" class="scroll-indicator">
+          <span>SCROLL TO EXPLORE</span>
+
+          <span class="scroll-arrow">↓</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- =================================
+             ABOUT ME SECTION
+        ================================== -->
+
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow"> GET TO KNOW ME </span>
+
+          <h2>About <span>Me</span></h2>
+
+          <p>
+            Mengenal lebih dekat perjalanan, latar belakang, dan fokus
+            profesional saya.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Description -->
+          <div class="about-content" data-reveal>
+            <span class="about-label"> WHO AM I? </span>
+
+            <h3>
+              Bridging Technology
+              <span>and Education.</span>
+            </h3>
+
+            <p>
+              Saya adalah Arjun Yuda Firwanda, lulusan Sarjana Terapan bidang
+              Teknik Informatika dengan minat pada pendidikan Informatika,
+              pemrograman, dan pengembangan teknologi digital.
+            </p>
+
+            <p>
+              Saat ini saya mengembangkan kompetensi sebagai calon Guru
+              Informatika melalui Program Pendidikan Profesi Guru (PPG) di
+              Universitas Pendidikan Indonesia. Saya memiliki ketertarikan dalam
+              merancang pembelajaran coding yang interaktif, kreatif, dan
+              berpusat pada peserta didik.
+            </p>
+
+            <p>
+              Selain bidang pendidikan, saya juga mengembangkan aplikasi web dan
+              proyek Internet of Things sebagai bentuk penerapan teknologi dalam
+              menyelesaikan permasalahan nyata.
+            </p>
+
+            <!-- Profile Highlights -->
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">01</span>
+
+                <div>
+                  <strong>Education</strong>
+
+                  <small> S.Tr.Kom. · PPG Calon Guru Informatika </small>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <span class="highlight-icon">02</span>
+
+                <div>
+                  <strong>Teaching Practice</strong>
+
+                  <small> SMA Negeri 12 Bandung </small>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <span class="highlight-icon">03</span>
+
+                <div>
+                  <strong>Professional Focus</strong>
+
+                  <small> Education · Software · IoT </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Philosophy Card -->
+          <div class="about-philosophy" data-reveal>
+            <div class="philosophy-top">
+              <span class="philosophy-symbol">✦</span>
+
+              <span class="philosophy-label"> MY PHILOSOPHY </span>
+            </div>
+
+            <h3>
+              Learn. Build.
+              <span>Inspire.</span>
+            </h3>
+
+            <p>
+              Saya percaya bahwa proses belajar terbaik terjadi ketika
+              pengetahuan dapat diterapkan untuk menciptakan sesuatu yang
+              bermanfaat.
+            </p>
+
+            <div class="philosophy-list">
+              <div class="philosophy-item">
+                <span>✦</span>
+
+                <div>
+                  <strong>Continuous Learning</strong>
+
+                  <small> Terus belajar dan mengembangkan kompetensi. </small>
+                </div>
+              </div>
+
+              <div class="philosophy-item">
+                <span>✦</span>
+
+                <div>
+                  <strong>Creative Problem Solving</strong>
+
+                  <small>
+                    Mengembangkan solusi melalui pemikiran komputasional.
+                  </small>
+                </div>
+              </div>
+
+              <div class="philosophy-item">
+                <span>✦</span>
+
+                <div>
+                  <strong>Meaningful Technology</strong>
+
+                  <small>
+                    Memanfaatkan teknologi untuk pendidikan dan kehidupan.
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="philosophy-footer">
+              <span>
+                <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>
+                CODING EDUCATOR
+              </span>
+
+              <span>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+                DEVELOPER
+              </span>
+
+              <span>
+                <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+                LIFELONG LEARNER
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================
+             SKILLS SECTION
+        ================================== -->
+
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow"> MY EXPERTISE </span>
+
+          <h2>Skills & <span>Technologies</span></h2>
+
+          <p>
+            Teknologi dan kompetensi yang saya pelajari serta terapkan dalam
+            pengembangan pendidikan dan proyek digital.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Teaching Skills -->
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-header">
+              <div class="skill-category-icon teaching-icon">✦</div>
+
+              <span class="skill-number">01</span>
+            </div>
+
+            <h3>Teaching & Learning</h3>
+
+            <p>
+              Kompetensi dalam merancang dan mengembangkan proses pembelajaran
+              Informatika.
+            </p>
+
+            <div class="skill-tags">
+              <span><i class="fa-solid fa-book-open"></i> Modul Ajar</span>
+
+              <span><i class="fa-solid fa-clipboard-list"></i> LKPD</span>
+
+              <span
+                ><i class="fa-solid fa-clipboard-check"></i> Asesmen
+                Pembelajaran</span
+              >
+
+              <span
+                ><i class="fa-solid fa-diagram-project"></i> Project Based
+                Learning</span
+              >
+
+              <span
+                ><i class="fa-solid fa-lightbulb"></i> Problem Based
+                Learning</span
+              >
+
+              <span
+                ><i class="fa-solid fa-brain"></i> Pembelajaran Mendalam</span
+              >
+
+              <span
+                ><i class="fa-solid fa-users"></i> Pembelajaran
+                Berdiferensiasi</span
+              >
+            </div>
+          </article>
+
+          <!-- Programming -->
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-header">
+              <div class="skill-category-icon programming-icon">&lt;/&gt;</div>
+
+              <span class="skill-number">02</span>
+            </div>
+
+            <h3>Programming</h3>
+
+            <p>
+              Pemrograman dan pengembangan logika komputasional untuk membangun
+              solusi digital.
+            </p>
+
+            <div class="skill-tags">
+              <span><i class="fa-brands fa-python"></i> Python</span>
+              <span><i class="fa-brands fa-r-project"></i> R</span>
+              <span><i class="fa-brands fa-php"></i> PHP</span>
+              <span><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span><i class="fa-solid fa-code"></i> C</span>
+              <span><i class="fa-solid fa-code"></i> C++</span>
+              <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Web Development -->
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-header">
+              <div class="skill-category-icon webdev-icon">◈</div>
+
+              <span class="skill-number">03</span>
+            </div>
+
+            <h3>Web Development</h3>
+
+            <p>
+              Pengembangan aplikasi web dan sistem informasi menggunakan
+              teknologi frontend dan backend.
+            </p>
+
+            <div class="skill-tags">
+              <span><i class="fa-brands fa-laravel"></i> Laravel</span>
+              <span><i class="fa-solid fa-flask"></i> Flask</span>
+              <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+              <span><i class="fa-solid fa-database"></i> MySQL</span>
+              <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+            </div>
+          </article>
+
+          <!-- IoT -->
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-header">
+              <div class="skill-category-icon iot-skill-icon">◎</div>
+
+              <span class="skill-number">04</span>
+            </div>
+
+            <h3>Internet of Things</h3>
+
+            <p>
+              Perancangan dan pengembangan proyek mikrokontroler, sensor, serta
+              sistem otomatisasi.
+            </p>
+
+            <div class="skill-tags">
+              <span><i class="fa-solid fa-laptop-code"></i> Wokwi</span>
+              <span><i class="fa-solid fa-microchip"></i> Arduino UNO</span>
+              <span><i class="fa-solid fa-microchip"></i> Arduino Nano</span>
+              <span><i class="fa-solid fa-microchip"></i> Arduino Mega</span>
+              <span
+                ><i class="fa-solid fa-wave-square"></i> Ultrasonic Sensor</span
+              >
+              <span
+                ><i class="fa-solid fa-temperature-half"></i> DHT22 Sensor</span
+              >
+              <span><i class="fa-solid fa-sun"></i> LDR Sensor</span>
+              <span><i class="fa-solid fa-gear"></i> Servo Motor</span>
+              <span><i class="fa-solid fa-terminal"></i> Serial Monitor</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Tools -->
+        <div class="tools-area" data-reveal>
+          <span class="tools-label"> DEVELOPMENT TOOLS </span>
+
+          <div class="tools-list">
+            <span>
+              <i class="fa-solid fa-code" aria-hidden="true"></i>
+              Visual Studio Code
+            </span>
+            <span>
+              <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+              Git
+            </span>
+            <span>
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              GitHub
+            </span>
+            <span>
+              <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+              Wokwi Simulator
+            </span>
+            <span>
+              <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+              Arduino IDE
+            </span>
+            <span>
+              <i class="fa-solid fa-palette" aria-hidden="true"></i>
+              Canva
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     PROJECTS SHOWCASE
+========================================== -->
+
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow"> MY CREATIVE WORK </span>
+
+          <h2>Featured <span>Projects</span></h2>
+
+          <p>
+            Beberapa proyek teknologi yang saya kembangkan sebagai bentuk
+            penerapan kemampuan programming, software development, dan Internet
+            of Things.
+          </p>
+        </div>
+
+        <!-- Project Filters -->
+        <div class="project-filters" data-reveal>
+          <button
+            type="button"
+            class="filter-button active"
+            data-filter="all"
+            aria-pressed="true"
+          >
+            All Projects
+          </button>
+
+          <button
+            type="button"
+            class="filter-button"
+            data-filter="software"
+            aria-pressed="false"
+          >
+            Software
+          </button>
+
+          <button
+            type="button"
+            class="filter-button"
+            data-filter="web"
+            aria-pressed="false"
+          >
+            Web Development
+          </button>
+
+          <button
+            type="button"
+            class="filter-button"
+            data-filter="iot"
+            aria-pressed="false"
+          >
+            Internet of Things
+          </button>
+        </div>
+
+        <!-- Project Cards -->
+        <div class="projects-grid">
+          <!-- PROJECT 01: DISCOUNT CALCULATOR -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image preview-calculator">
+              <div class="project-browser">
+                <div class="browser-header">
+                  <div class="browser-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  <span>discount-calculator</span>
+                </div>
+
+                <div class="calculator-preview">
+                  <span class="preview-eyebrow"> SMART PRICE CALCULATOR </span>
+
+                  <h3>Discount<span>Calc</span></h3>
+
+                  <div class="preview-input">
+                    <span>Harga Satuan</span>
+                    <strong>Rp150.000</strong>
+                  </div>
+
+                  <div class="preview-row">
+                    <div>
+                      <small>Diskon</small>
+                      <strong>10%</strong>
+                    </div>
+
+                    <div>
+                      <small>Kuantitas</small>
+                      <strong>2</strong>
+                    </div>
+                  </div>
+
+                  <div class="preview-total">
+                    <small>Total Pembayaran</small>
+
+                    <strong>Rp270.000</strong>
+                  </div>
+                </div>
+              </div>
+
+              <span class="project-image-number">01 / 03</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category"> WEB APPLICATION </span>
+
+                <span class="project-status completed"> Completed </span>
+              </div>
+
+              <h3>Discount Calculator</h3>
+
+              <p>
+                Aplikasi kalkulator diskon berbasis Python Flask untuk membantu
+                pengguna menghitung subtotal, nominal diskon, dan total
+                pembayaran secara otomatis.
+              </p>
+
+              <div class="project-tech">
+                <span
+                  ><i class="fa-brands fa-python" aria-hidden="true"></i>
+                  Python</span
+                >
+                <span
+                  ><i class="fa-solid fa-flask" aria-hidden="true"></i>
+                  Flask</span
+                >
+                <span
+                  ><i class="fa-brands fa-html5" aria-hidden="true"></i>
+                  HTML</span
+                >
+                <span
+                  ><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                  CSS</span
+                >
+                <span
+                  ><i class="fa-brands fa-js" aria-hidden="true"></i>
+                  JavaScript</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://arjunyudafirwanda.pythonanywhere.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Run Live Application
+                </a>
+
+                <span class="project-index">PROJECT 01</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: SIMSAPRAS -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-image-photo">
+              <a
+                href="assets/images/projects/simsapras-dashboard.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-photo-link"
+                aria-label="Lihat screenshot SIMSAPRAS"
+              >
+                <img
+                  src="assets/images/projects/simsapras-dashboard.png"
+                  alt="Screenshot dashboard SIMSAPRAS"
+                  loading="lazy"
+                />
+
+                <span class="photo-overlay">
+                  <i class="fa-solid fa-expand"></i>
+                  View Screenshot
+                </span>
+              </a>
+
+              <span class="project-image-number">02 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category"> INFORMATION SYSTEM </span>
+
+                <span class="project-status development">
+                  Development Project
+                </span>
+              </div>
+
+              <h3>SIMSAPRAS</h3>
+
+              <p>
+                Sistem Informasi Manajemen Sarana dan Prasarana yang
+                dikembangkan untuk membantu pengelolaan informasi fasilitas dan
+                inventaris sekolah.
+              </p>
+
+              <div class="project-tech">
+                <span
+                  ><i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                  Laravel</span
+                >
+                <span
+                  ><i class="fa-brands fa-php" aria-hidden="true"></i> PHP</span
+                >
+                <span
+                  ><i class="fa-solid fa-database" aria-hidden="true"></i>
+                  MySQL</span
+                >
+                <span
+                  ><i class="fa-brands fa-bootstrap" aria-hidden="true"></i>
+                  Bootstrap</span
+                >
+                <span
+                  ><i class="fa-brands fa-js" aria-hidden="true"></i>
+                  JavaScript</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="assets/images/projects/simsapras-dashboard.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  <i class="fa-regular fa-image"></i>
+                  View Screenshot
+                </a>
+
+                <span class="project-index">PROJECT 02</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: SMART WASTE SORTING -->
+
+          <article class="project-card" data-category="iot" data-reveal>
+            <div class="project-image project-image-photo">
+              <a
+                href="assets/images/projects/smart-waste-iot.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-photo-link"
+                aria-label="Lihat foto proyek Smart Waste Sorting IoT"
+              >
+                <img
+                  src="assets/images/projects/smart-waste-iot.jpg"
+                  alt="Prototipe pemilahan sampah basah dan kering menggunakan ESP32"
+                  loading="lazy"
+                />
+
+                <span class="photo-overlay">
+                  <i class="fa-solid fa-expand"></i>
+                  View Project Image
+                </span>
+              </a>
+
+              <span class="project-image-number">03 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category"> INTERNET OF THINGS </span>
+
+                <span class="project-status prototype"> Prototype </span>
+              </div>
+
+              <h3>Smart Waste Sorting IoT</h3>
+
+              <p>
+                Prototipe sistem pemilahan sampah basah dan kering menggunakan
+                ESP32, sensor kelembapan, sensor ultrasonik, dan servo motor.
+              </p>
+
+              <div class="project-tech">
+                <span
+                  ><i class="fa-solid fa-microchip" aria-hidden="true"></i>
+                  ESP32</span
+                >
+                <span
+                  ><i class="fa-solid fa-code" aria-hidden="true"></i> Arduino
+                  IDE</span
+                >
+                <span
+                  ><i
+                    class="fa-solid fa-tower-broadcast"
+                    aria-hidden="true"
+                  ></i>
+                  Ultrasonic</span
+                >
+                <span
+                  ><i class="fa-solid fa-gear" aria-hidden="true"></i> Servo
+                  Motor</span
+                >
+                <span
+                  ><i class="fa-solid fa-droplet" aria-hidden="true"></i> Soil
+                  Moisture Sensor</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="assets/images/projects/smart-waste-iot.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  <i class="fa-regular fa-image"></i>
+                  View Project Image
+                </a>
+
+                <span class="project-index">PROJECT 03</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 04: COFFEE SALES DASHBOARD
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-coffee">
+              <div class="art-content">
+                <i class="fa-solid fa-mug-hot"></i>
+                <span>SALES ANALYTICS</span>
+                <h3>Coffee Sales</h3>
+                <p>BUSINESS INTELLIGENCE</p>
+              </div>
+              <span class="project-image-number">04 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">DATA ANALYTICS</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Dashboard Analisa Penjualan Kopi</h3>
+
+              <p>
+                Dashboard interaktif untuk menganalisis performa penjualan kopi,
+                menyajikan insight bisnis, dan membantu pemantauan kinerja
+                penjualan secara berkala.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span
+                  ><i class="fa-solid fa-chart-line"></i> Data Analysis</span
+                >
+                <span><i class="fa-solid fa-gauge-high"></i> Dashboard</span>
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appdashboardpenjualankopi-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 04</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 05: SNEAKERS SALES DASHBOARD
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-sneakers">
+              <div class="art-content">
+                <i class="fa-solid fa-shoe-prints"></i>
+                <span>RETAIL ANALYTICS</span>
+                <h3>Sneakers Sales</h3>
+                <p>SALES PERFORMANCE</p>
+              </div>
+              <span class="project-image-number">05 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">DATA ANALYTICS</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Dashboard Analisa Penjualan Sneakers</h3>
+
+              <p>
+                Dashboard analisis untuk mengevaluasi performa penjualan
+                sneakers, distribusi produk, dominasi penjualan, serta pola
+                penjualan sebagai pendukung keputusan bisnis.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-chart-pie"></i> Visualization</span>
+                <span
+                  ><i class="fa-solid fa-magnifying-glass-chart"></i>
+                  Analytics</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appdashboardpenjualansneakers-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 05</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 06: STUDENT ADMISSION PREDICTION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-admission">
+              <div class="art-content">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>MACHINE LEARNING</span>
+                <h3>Student Admission</h3>
+                <p>RANDOM FOREST</p>
+              </div>
+              <span class="project-image-number">06 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">MACHINE LEARNING</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Prediksi Penerimaan Siswa Baru</h3>
+
+              <p>
+                Aplikasi machine learning untuk memprediksi penerimaan siswa
+                baru menggunakan algoritma Random Forest. Riwayat analisis
+                disimpan menggunakan JSON.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-tree"></i> Random Forest</span>
+                <span><i class="fa-solid fa-file-code"></i> JSON</span>
+                <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appprediksipenerimaansiswa-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 06</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 07: CALORIE PREDICTION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-calorie">
+              <div class="art-content">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                <span>PREDICTIVE ANALYTICS</span>
+                <h3>Calorie Prediction</h3>
+                <p>SUPPORT VECTOR REGRESSION</p>
+              </div>
+              <span class="project-image-number">07 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">MACHINE LEARNING</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Prediksi Kebutuhan Kalori</h3>
+
+              <p>
+                Aplikasi prediksi kebutuhan kalori harian menggunakan algoritma
+                Support Vector Regression (SVR), dengan model machine learning
+                yang dilatih menggunakan data.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-chart-line"></i> SVR</span>
+                <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+                <span
+                  ><i class="fa-solid fa-file-arrow-down"></i> Pickle
+                  Model</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appprediksikalori-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 07</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 08: HEART DISEASE CLASSIFICATION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-heart">
+              <div class="art-content">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <span>HEALTH DATA ANALYTICS</span>
+                <h3>Heart Classification</h3>
+                <p>CLASSIFICATION MODELS</p>
+              </div>
+              <span class="project-image-number">08 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">MACHINE LEARNING</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Klasifikasi Biner Penyakit Jantung</h3>
+
+              <p>
+                Aplikasi klasifikasi biner berbasis machine learning dengan
+                Random Forest, SVM, Logistic Regression, KNN, dan Gradient
+                Boosting.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-tree"></i> Random Forest</span>
+                <span><i class="fa-solid fa-vector-square"></i> SVM</span>
+                <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+                <span><i class="fa-solid fa-file-arrow-down"></i> Pickle</span>
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appklasifikasibinerpenyakit-jantung-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 08</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 09: CUSTOMER CLUSTERING
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-clustering">
+              <div class="art-content">
+                <i class="fa-solid fa-circle-nodes"></i>
+                <span>CUSTOMER ANALYTICS</span>
+                <h3>Customer Clustering</h3>
+                <p>K-MEANS ALGORITHM</p>
+              </div>
+              <span class="project-image-number">09 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">DATA SCIENCE</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Klustering Customer</h3>
+
+              <p>
+                Aplikasi segmentasi pelanggan menggunakan K-Means Clustering,
+                dilengkapi filter periode waktu, evaluasi Silhouette Score, dan
+                visualisasi hasil cluster.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-circle-nodes"></i> K-Means</span>
+                <span
+                  ><i class="fa-solid fa-chart-scatter"></i> Clustering</span
+                >
+                <span
+                  ><i class="fa-solid fa-chart-line"></i> Silhouette Score</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appklusterisasicustomer-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 09</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 10: CREDIT ELIGIBILITY PREDICTION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-credit">
+              <div class="art-content">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <span>FINANCIAL ANALYTICS</span>
+                <h3>Credit Eligibility</h3>
+                <p>K-NEAREST NEIGHBORS</p>
+              </div>
+              <span class="project-image-number">10 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">MACHINE LEARNING</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Prediksi Kelayakan Kredit Nasabah</h3>
+
+              <p>
+                Sistem analisis kelayakan kredit menggunakan algoritma K-Nearest
+                Neighbors (KNN) untuk membantu pengelompokan risiko nasabah
+                menjadi Good Risk atau Bad Risk.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-people-arrows"></i> KNN</span>
+                <span><i class="fa-solid fa-database"></i> Data Mining</span>
+                <span><i class="fa-solid fa-scale-balanced"></i> CRISP-DM</span>
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appprediksikelayakankreditnasabah-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 10</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 11: STUNTING CLASSIFICATION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-stunting">
+              <div class="art-content">
+                <i class="fa-solid fa-baby"></i>
+                <span>CHILD GROWTH ANALYTICS</span>
+                <h3>Stunting Classification</h3>
+                <p>CATBOOST CLASSIFIER</p>
+              </div>
+              <span class="project-image-number">11 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">MACHINE LEARNING</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Klasifikasi Stunting Balita</h3>
+
+              <p>
+                Aplikasi klasifikasi status pertumbuhan balita menggunakan
+                algoritma CatBoostClassifier dengan preprocessing data dan
+                prediksi kategori status pertumbuhan.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-tree"></i> CatBoost</span>
+                <span><i class="fa-solid fa-brain"></i> Classification</span>
+                <span
+                  ><i class="fa-solid fa-chart-simple"></i> Data
+                  Processing</span
+                >
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appklasifikasistuntingbalita-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 11</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- =========================================
+     PROJECT 12: INDONESIA POVERTY CLASSIFICATION
+========================================== -->
+
+          <article
+            class="project-card"
+            data-category="software web"
+            data-reveal
+          >
+            <div class="project-image project-art art-poverty">
+              <div class="art-content">
+                <i class="fa-solid fa-chart-area"></i>
+                <span>INDONESIA DATA ANALYTICS</span>
+                <h3>Poverty Classification</h3>
+                <p>DECISION TREE</p>
+              </div>
+              <span class="project-image-number">12 / 12</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">DATA SCIENCE</span>
+                <span class="project-status completed">Live Demo</span>
+              </div>
+
+              <h3>Aplikasi Klasifikasi Tingkat Kemiskinan Indonesia</h3>
+
+              <p>
+                Aplikasi klasifikasi tingkat kemiskinan wilayah di Indonesia
+                menggunakan Decision Tree Classifier, dengan fitur pengolahan
+                data dan prediksi kategori wilayah.
+              </p>
+
+              <div class="project-tech">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-solid fa-chart-column"></i> Streamlit</span>
+                <span><i class="fa-solid fa-sitemap"></i> Decision Tree</span>
+                <span
+                  ><i class="fa-solid fa-database"></i> Data Processing</span
+                >
+                <span><i class="fa-solid fa-brain"></i> Classification</span>
+              </div>
+
+              <div class="project-bottom">
+                <a
+                  href="https://appklasifikasitingkatkemiskinanindonesia-liraajob.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-detail-link"
+                >
+                  Open Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <span class="project-index">PROJECT 12</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project Footer -->
+        <div class="projects-footer" data-reveal>
+          <span> MORE IDEAS. MORE PROJECTS. MORE INNOVATION. </span>
+
+          <div class="projects-footer-line"></div>
+
+          <p>Always learning, building, and creating something meaningful.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     EXPERIENCE & EDUCATION SECTION
+========================================== -->
+
+    <section class="experience-section section-padding" id="experience">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow">MY PROFESSIONAL JOURNEY</span>
+
+          <h2>Experience & <span>Education</span></h2>
+
+          <p>
+            Perjalanan akademik dan pengalaman profesional dalam bidang
+            pendidikan, pengembangan teknologi, data analytics, dan machine
+            learning.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+          <!-- =================================
+           EDUCATION
+      ================================== -->
+
+          <div class="journey-column" data-reveal>
+            <div class="journey-heading">
+              <div class="journey-heading-icon education-heading-icon">
+                <span>
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+              </div>
+
+              <div>
+                <h3>Education</h3>
+                <p>Academic Background</p>
+              </div>
+            </div>
+
+            <div class="journey-timeline">
+              <!-- =================================
+     PPG CALON GURU
+================================== -->
+
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date">Jan 2026 – Present</span>
+
+                    <span class="journey-type">PROFESSIONAL EDUCATION</span>
+                  </div>
+
+                  <h4>PPG Calon Guru</h4>
+
+                  <h5>Universitas Pendidikan Indonesia</h5>
+
+                  <span class="journey-specialization"> Informatika </span>
+
+                  <p>
+                    Mengikuti Program Pendidikan Profesi Guru (PPG) bidang
+                    Informatika untuk mengembangkan kompetensi pedagogik,
+                    profesional, sosial, dan kepribadian sebagai calon guru.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      PROGRAM & ACTIVITIES
+                    </span>
+
+                    <ul>
+                      <li>
+                        Melaksanakan Praktik Pengalaman Lapangan (PPL) di SMA
+                        Negeri 12 Bandung dengan mengajar mata pelajaran
+                        Informatika pada kelas X dan XII-3 IPA.
+                      </li>
+
+                      <li>
+                        Merancang dan melaksanakan pembelajaran melalui
+                        penyusunan modul ajar, media pembelajaran, LKPD, serta
+                        instrumen asesmen.
+                      </li>
+
+                      <li>
+                        Menerapkan model pembelajaran Discovery Learning,
+                        Problem Based Learning (PBL), dan pendekatan
+                        Pembelajaran Mendalam.
+                      </li>
+
+                      <li>
+                        Mengembangkan materi dan praktik pemrograman Python,
+                        C/C++, serta Sistem Komputer berbasis Arduino dan
+                        simulator Wokwi. Melaksanakan asesmen, evaluasi, dan
+                        refleksi pembelajaran.
+                      </li>
+
+                      <li>
+                        Mengembangkan Sistem Informasi Manajemen Sarana dan
+                        Prasarana (SIMSAPRAS) SMA Negeri 12 Bandung serta
+                        merancang prototipe IoT pemilah sampah basah dan kering
+                        berbasis ESP32 sebagai media pembelajaran praktik Sistem
+                        Komputer.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- PPG PORTFOLIO LINK -->
+                  <div class="journey-portfolio-action">
+                    <a
+                      href="https://arjunyudafirwanda.github.io/App-E-Portofolio-PPG2026/"
+                      class="journey-portfolio-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Lihat portofolio khusus PPG Calon Guru"
+                    >
+                      <i class="fa-solid fa-graduation-cap"></i>
+
+                      <span>View PPG Portfolio</span>
+
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                  </div>
+
+                  <!-- COMPETENCY TAGS -->
+                  <div class="journey-tags">
+                    <span>
+                      <i class="fa-solid fa-chalkboard-user"></i>
+                      Teacher Education
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-laptop-code"></i>
+                      Informatika
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-lightbulb"></i>
+                      Discovery Learning
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-puzzle-piece"></i>
+                      Problem Based Learning
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-brain"></i>
+                      Deep Learning
+                    </span>
+
+                    <span>
+                      <i class="fa-brands fa-python"></i>
+                      Python
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-microchip"></i>
+                      Arduino
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-desktop"></i>
+                      Wokwi
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-memory"></i>
+                      ESP32
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-building"></i>
+                      SIMSAPRAS
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- SARJANA TERAPAN -->
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date"> Sep 2017 – Sep 2021 </span>
+
+                    <span class="journey-type"> HIGHER EDUCATION </span>
+                  </div>
+
+                  <h4>Teknik Informatika</h4>
+
+                  <h5>Politeknik Pos Indonesia</h5>
+
+                  <span class="journey-specialization">
+                    Sarjana Terapan · S.Tr.Kom. · IPK 3.38
+                  </span>
+
+                  <p>
+                    Menempuh pendidikan tinggi di bidang Teknik Informatika
+                    dengan fokus pengembangan kompetensi pemrograman, analisis
+                    data, algoritma, dan teknologi informasi.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      SCIENTIFIC PUBLICATIONS
+                    </span>
+
+                    <ul>
+                      <li>
+                        <strong>2019:</strong>
+                        Aplikasi Supervisi Kebersihan Ruangan Menggunakan QR
+                        Code di Sekolah Dasar Negeri 1 Cipunagara.
+                      </li>
+
+                      <li>
+                        <strong>2021:</strong>
+                        Penentuan Rute Terpendek Lokasi Badan Pusat Statistik
+                        Kota Bandung dengan Algoritma Dijkstra.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="journey-tags">
+                    <span
+                      ><i class="fa-solid fa-laptop-code"></i> Informatics</span
+                    >
+                    <span><i class="fa-solid fa-code"></i> Programming</span>
+                    <span
+                      ><i class="fa-solid fa-chart-line"></i> Data
+                      Analysis</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-diagram-project"></i>
+                      Algorithms</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-gears"></i> Software
+                      Development</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-file-lines"></i> Scientific
+                      Publication</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- =================================
+           EXPERIENCE
+      ================================== -->
+
+          <div class="journey-column" data-reveal>
+            <div class="journey-heading">
+              <div class="journey-heading-icon experience-heading-icon">
+                <span>
+                  <i class="fa-solid fa-briefcase"></i>
+                </span>
+              </div>
+
+              <div>
+                <h3>Experience</h3>
+                <p>Professional & Teaching Experience</p>
+              </div>
+            </div>
+
+            <div class="journey-timeline">
+              <!-- ASSISTANT COACH IT -->
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date"> Sep 2023 – Present </span>
+
+                    <span class="journey-type"> IT TRAINING </span>
+                  </div>
+
+                  <h4>Assistant Coach IT</h4>
+
+                  <h5>PT Coursenet Bangun Indonesia</h5>
+
+                  <span class="journey-specialization">
+                    Learning & Technical Support
+                  </span>
+
+                  <p>
+                    Mendukung pelaksanaan kegiatan pelatihan dan webinar
+                    teknologi informasi dengan membantu coach serta memberikan
+                    pendampingan teknis kepada peserta.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      KEY RESPONSIBILITIES
+                    </span>
+
+                    <ul>
+                      <li>
+                        Mendampingi coach dengan memberikan instruksi teknis
+                        kepada peserta dalam penggunaan Learning Management
+                        System (LMS).
+                      </li>
+
+                      <li>
+                        Membantu peserta dalam mengakses dan menggunakan fitur
+                        LMS, seperti quiz, pre-test, post-test, exam, dan
+                        project.
+                      </li>
+
+                      <li>
+                        Memberikan informasi kepada peserta terkait program dan
+                        kegiatan webinar IT.
+                      </li>
+
+                      <li>
+                        Membantu mempersiapkan kebutuhan teknis pelaksanaan
+                        webinar IT agar kegiatan berjalan dengan baik.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="journey-tags">
+                    <span
+                      ><i class="fa-solid fa-chalkboard-user"></i> IT
+                      Training</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-graduation-cap"></i> Learning
+                      Management System</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-headset"></i> Technical
+                      Support</span
+                    >
+                    <span><i class="fa-solid fa-video"></i> Webinar</span>
+                    <span
+                      ><i class="fa-solid fa-comments"></i> Communication</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- DATA ANALYST TRADE MARKETING -->
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date"> Dec 2023 – Oct 2024 </span>
+
+                    <span class="journey-type"> DATA ANALYTICS </span>
+                  </div>
+
+                  <h4>Data Analyst Trade Marketing</h4>
+
+                  <h5>PT Akasha Wira International Tbk</h5>
+
+                  <span class="journey-specialization">
+                    Sales Data & Distributor Management
+                  </span>
+
+                  <p>
+                    Bertanggung jawab dalam pemeliharaan, analisis, dan
+                    pengelolaan data penjualan serta data distributor untuk
+                    mendukung kebutuhan reporting dan aktivitas Trade Marketing.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      KEY RESPONSIBILITIES
+                    </span>
+
+                    <ul>
+                      <li>
+                        Memelihara Sales Key Measures tingkat nasional, meliputi
+                        Sales to Trade, Sales to Distributor, dan Customer
+                        Buying.
+                      </li>
+
+                      <li>
+                        Melakukan analisis dan tracking Sales to Distributor
+                        untuk kategori Beverage, BeautyCare Consumer, dan
+                        BeautyCare Professional.
+                      </li>
+
+                      <li>
+                        Menangani permasalahan sistem data reporting distributor
+                        serta melakukan pengecekan dan perapihan Master Data
+                        Distributor tingkat nasional.
+                      </li>
+
+                      <li>
+                        Melakukan koordinasi dan tindak lanjut langsung dengan
+                        tim IT terkait permasalahan sistem maupun laporan data.
+                      </li>
+
+                      <li>
+                        Memelihara Automatic Replenishment Order (ARO)
+                        distributor pada sistem Pedro serta menjaga Distributor
+                        Quality.
+                      </li>
+
+                      <li>
+                        Melakukan pemetaan Channel Category Customer Beverage
+                        untuk produk Nestlé Pure Life.
+                      </li>
+
+                      <li>
+                        Membantu proses Sales Order distributor dan melakukan
+                        registrasi Customer atau Distributor baru ke dalam
+                        sistem.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="journey-tags">
+                    <span
+                      ><i class="fa-solid fa-chart-line"></i> Data
+                      Analytics</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-chart-column"></i> Sales
+                      Reporting</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-database"></i> Master Data</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-users"></i> Distributor
+                      Management</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-clipboard-check"></i> Data
+                      Quality</span
+                    >
+                    <span><i class="fa-solid fa-server"></i> Pedro System</span>
+                    <span
+                      ><i class="fa-solid fa-file-excel"></i> Microsoft
+                      Excel</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- DATA SCIENCE MACHINE LEARNING MENTOR -->
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date"> Jan 2022 – Apr 2023 </span>
+
+                    <span class="journey-type"> DATA SCIENCE </span>
+                  </div>
+
+                  <h4>Data Science Machine Learning Mentor</h4>
+
+                  <h5>PT Teknologi Bangsa Cerdas</h5>
+
+                  <span class="journey-specialization">
+                    Machine Learning & Data Science Training
+                  </span>
+
+                  <p>
+                    Membimbing dan memberikan pelatihan kepada client dalam
+                    memahami analisis statistik serta penerapan algoritma
+                    Machine Learning untuk mendukung proses analisis dan
+                    pengambilan keputusan.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      KEY RESPONSIBILITIES
+                    </span>
+
+                    <ul>
+                      <li>
+                        Membuat analisis statistik dan penerapan algoritma
+                        secara manual maupun menggunakan tools seperti Microsoft
+                        Excel, Jupyter Notebook, Spyder, dan RapidMiner.
+                      </li>
+
+                      <li>
+                        Menjadi trainer dan pembimbing client dalam memahami
+                        serta menerapkan algoritma Machine Learning, meliputi
+                        prediksi, klasifikasi, dan klastering untuk mendukung
+                        pengambilan keputusan.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="journey-tags">
+                    <span><i class="fa-solid fa-brain"></i> Data Science</span>
+                    <span
+                      ><i class="fa-solid fa-robot"></i> Machine Learning</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-square-root-variable"></i>
+                      Statistical Analysis</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-chart-line"></i> Prediction</span
+                    >
+                    <span><i class="fa-solid fa-tags"></i> Classification</span>
+                    <span
+                      ><i class="fa-solid fa-object-group"></i> Clustering</span
+                    >
+                    <span><i class="fa-brands fa-python"></i> Python</span>
+                    <span
+                      ><i class="fa-solid fa-book-open"></i> Jupyter
+                      Notebook</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-chart-pie"></i> RapidMiner</span
+                    >
+                    <span
+                      ><i class="fa-solid fa-file-excel"></i> Microsoft
+                      Excel</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- =================================
+     MITRA DATA CONTROLLER INTERNSHIP
+================================== -->
+
+              <article class="journey-item">
+                <div class="journey-marker">
+                  <span></span>
+                </div>
+
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <span class="journey-date"> Oct 2020 – Jan 2021 </span>
+
+                    <span class="journey-type"> INTERNSHIP </span>
+                  </div>
+
+                  <h4>Mitra Data Controller</h4>
+
+                  <h5>Badan Pusat Statistik Kota Bandung</h5>
+
+                  <span class="journey-specialization">
+                    Data Management, Geographic Information System & Statistical
+                    Analysis
+                  </span>
+
+                  <p>
+                    Mendukung kegiatan pengelolaan dan pengolahan data di Badan
+                    Pusat Statistik Kota Bandung melalui kegiatan data entry,
+                    monitoring data, digitasi peta, serta pengembangan analisis
+                    statistik menggunakan pemrograman R.
+                  </p>
+
+                  <div class="experience-responsibilities">
+                    <span class="responsibility-heading">
+                      KEY RESPONSIBILITIES
+                    </span>
+
+                    <ul>
+                      <li>
+                        Melaksanakan kegiatan data entry untuk mendukung
+                        pelaksanaan Sensus Penduduk Tahun 2020.
+                      </li>
+
+                      <li>
+                        Melakukan monitoring dan perbaikan data hasil digitasi
+                        peta menggunakan QGIS.
+                      </li>
+
+                      <li>
+                        Mengembangkan pemrograman R untuk melakukan analisis dan
+                        prediksi tingkat kemiskinan di Kota Bandung menggunakan
+                        algoritma Regresi Linear Berganda.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="journey-tags">
+                    <span>
+                      <i class="fa-solid fa-keyboard"></i>
+                      Data Entry
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-users"></i>
+                      Population Census
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-map-location-dot"></i>
+                      QGIS
+                    </span>
+
+                    <span>
+                      <i class="fa-brands fa-r-project"></i>
+                      R Programming
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-chart-line"></i>
+                      Statistical Analysis
+                    </span>
+
+                    <span>
+                      <i class="fa-solid fa-calculator"></i>
+                      Multiple Linear Regression
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Career Philosophy -->
+        <div class="journey-quote" data-reveal>
+          <span class="quote-symbol">“</span>
+
+          <div>
+            <h3>Growing as an Educator, Building as a Developer.</h3>
+
+            <p>
+              Menggabungkan pengalaman pendidikan, teknologi, dan analisis data
+              untuk terus belajar, mengembangkan kompetensi, serta menciptakan
+              solusi digital yang memberikan dampak positif.
+            </p>
+          </div>
+
+          <span class="quote-decoration">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     CERTIFICATIONS & PROFESSIONAL DEVELOPMENT
+========================================== -->
+
+    <section class="certifications-section section-padding" id="certifications">
+      <div class="container">
+        <!-- SECTION HEADING -->
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow">
+            CERTIFICATIONS & CONTINUOUS LEARNING
+          </span>
+
+          <h2>Certifications & <span>Training</span></h2>
+
+          <p>
+            Program sertifikasi, bootcamp, dan pelatihan profesional yang
+            mendukung pengembangan kompetensi di bidang data analytics, data
+            science, artificial intelligence, dan statistical analysis.
+          </p>
+        </div>
+
+        <!-- =========================================
+         CERTIFICATION CARDS
+    ========================================== -->
+
+        <div class="certification-grid">
+          <!-- =========================================
+           CERTIFICATION 01: DATA ANALYSIS BOOTCAMP
+      ========================================== -->
+
+          <article class="certification-card" data-reveal>
+            <!-- Card Header -->
+            <div class="certification-card-header">
+              <div class="certification-icon analytics-cert-icon">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+
+              <span class="certification-type"> INTENSIVE BOOTCAMP </span>
+            </div>
+
+            <!-- Certification Date -->
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              JUL 2023 – AUG 2023
+            </div>
+
+            <!-- Certification Title -->
+            <h3 class="certification-title">
+              Data Analysis Fullstack Intensive Bootcamp
+            </h3>
+
+            <!-- Organization -->
+            <h4 class="certification-organization">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>MySkill</span>
+            </h4>
+
+            <!-- Description -->
+            <p class="certification-description">
+              Mengikuti program pelatihan intensif untuk mengembangkan
+              kompetensi analisis data, pengolahan data, statistik dasar,
+              pengukuran metrik bisnis, serta visualisasi data untuk
+              menghasilkan insight yang mendukung pengambilan keputusan.
+            </p>
+
+            <!-- Learning Materials -->
+            <div class="certification-learning">
+              <h5>
+                <i class="fa-solid fa-book-open"></i>
+                Materi yang Dipelajari
+              </h5>
+
+              <ul>
+                <li>Basic Statistics</li>
+                <li>Business Metrics</li>
+                <li>Data Preparation</li>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+              </ul>
+            </div>
+
+            <!-- Skills -->
+            <div class="certification-skills">
+              <h5>
+                <i class="fa-solid fa-laptop-code"></i>
+                Skills & Technologies
+              </h5>
+
+              <div class="certification-tags">
+                <span>
+                  <i class="fa-brands fa-google"></i>
+                  Google Sheets
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-database"></i>
+                  PostgreSQL
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-database"></i>
+                  BigQuery
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-code"></i>
+                  SQL
+                </span>
+
+                <span>
+                  <i class="fa-brands fa-python"></i>
+                  Python
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-book"></i>
+                  Jupyter Notebook
+                </span>
+
+                <span>
+                  <i class="fa-brands fa-google"></i>
+                  Google Colab
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-chart-line"></i>
+                  Data Visualization
+                </span>
+              </div>
+            </div>
+
+            <!-- Google Drive Certificate -->
+            <div class="certification-actions">
+              <a
+                href="https://drive.google.com/file/d/1FpasEHQoPhVPWS2jBvqvFGS8bkDs8SIa/view"
+                class="certification-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Lihat sertifikat Data Analysis Fullstack Intensive Bootcamp MySkill"
+              >
+                <i class="fa-brands fa-google-drive"></i>
+
+                <span>View Certificate</span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <!-- Card Footer -->
+            <div class="certification-card-footer">
+              <span>
+                <i class="fa-solid fa-award"></i>
+                PROFESSIONAL DEVELOPMENT
+              </span>
+
+              <span>01 / 03</span>
+            </div>
+          </article>
+
+          <!-- =========================================
+           CERTIFICATION 02: ASSOCIATE DATA SCIENTIST
+      ========================================== -->
+
+          <article class="certification-card" data-reveal>
+            <!-- Card Header -->
+            <div class="certification-card-header">
+              <div class="certification-icon datascience-cert-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+
+              <span class="certification-type">
+                MICROCREDENTIAL CERTIFICATION
+              </span>
+            </div>
+
+            <!-- Certification Date -->
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              NOV 2021 – DEC 2021
+            </div>
+
+            <!-- Certification Title -->
+            <h3 class="certification-title">Associate Data Scientist</h3>
+
+            <!-- Organization -->
+            <h4 class="certification-organization">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>Kemendikbud</span>
+            </h4>
+
+            <!-- Description -->
+            <p class="certification-description">
+              Mengikuti program Microcredential Certification Associate Data
+              Scientist dengan fokus pembelajaran teknologi, aplikasi, dan
+              metode Artificial Intelligence (AI), serta pengembangan model
+              Machine Learning.
+            </p>
+
+            <!-- Learning Materials -->
+            <div class="certification-learning">
+              <h5>
+                <i class="fa-solid fa-book-open"></i>
+                Materi yang Dipelajari
+              </h5>
+
+              <ul>
+                <li>Teknologi, Aplikasi, dan Metode AI</li>
+                <li>Data Preparation</li>
+                <li>Machine Learning Model Development</li>
+                <li>Model Pipelining</li>
+                <li>Model Deployment Technology</li>
+              </ul>
+            </div>
+
+            <!-- Skills -->
+            <div class="certification-skills">
+              <h5>
+                <i class="fa-solid fa-laptop-code"></i>
+                Skills & Technologies
+              </h5>
+
+              <div class="certification-tags">
+                <span>
+                  <i class="fa-brands fa-python"></i>
+                  Python
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-chart-line"></i>
+                  Linear Regression
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-vector-square"></i>
+                  Support Vector Machine
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-diagram-project"></i>
+                  Decision Tree
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-network-wired"></i>
+                  ANN
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-brain"></i>
+                  RNN
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-robot"></i>
+                  Deep Learning
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-gears"></i>
+                  Model Pipelining
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  Model Deployment
+                </span>
+              </div>
+            </div>
+
+            <!-- Google Drive Certificate -->
+            <div class="certification-actions">
+              <a
+                href="https://drive.google.com/file/d/1VEgH8EKbT-DOCO9TIJ9Ts3qN2P6UOQxy/view"
+                class="certification-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Lihat sertifikat Associate Data Scientist"
+              >
+                <i class="fa-brands fa-google-drive"></i>
+
+                <span>View Certificate</span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <!-- Card Footer -->
+            <div class="certification-card-footer">
+              <span>
+                <i class="fa-solid fa-award"></i>
+                DATA SCIENCE CERTIFICATION
+              </span>
+
+              <span>02 / 03</span>
+            </div>
+          </article>
+
+          <!-- =========================================
+           CERTIFICATION 03: REGRESSION WORKSHOP
+      ========================================== -->
+
+          <article class="certification-card" data-reveal>
+            <!-- Card Header -->
+            <div class="certification-card-header">
+              <div class="certification-icon statistics-cert-icon">
+                <i class="fa-solid fa-square-root-variable"></i>
+              </div>
+
+              <span class="certification-type"> WEBINAR & WORKSHOP </span>
+            </div>
+
+            <!-- Certification Date -->
+            <div class="certification-date">
+              <i class="fa-regular fa-calendar"></i>
+              NOV 2020
+            </div>
+
+            <!-- Certification Title -->
+            <h3 class="certification-title">
+              Webinar & Workshop Regresi Linier Berganda dengan R Statistics
+              Cloud
+            </h3>
+
+            <!-- Organization -->
+            <h4 class="certification-organization">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>Universitas Persada Indonesia</span>
+            </h4>
+
+            <!-- Description -->
+            <p class="certification-description">
+              Mengikuti webinar dan workshop mengenai penerapan statistika
+              menggunakan R Statistics Cloud serta implementasi algoritma
+              regresi linier berganda untuk analisis hubungan antarvariabel dan
+              prediksi.
+            </p>
+
+            <!-- Learning Materials -->
+            <div class="certification-learning">
+              <h5>
+                <i class="fa-solid fa-book-open"></i>
+                Materi yang Dipelajari
+              </h5>
+
+              <ul>
+                <li>Praktikum R Statistics Cloud</li>
+                <li>Dasar Analisis Statistik</li>
+                <li>Implementasi Regresi Linier Berganda</li>
+                <li>Analisis dan Prediksi Data</li>
+              </ul>
+            </div>
+
+            <!-- Skills -->
+            <div class="certification-skills">
+              <h5>
+                <i class="fa-solid fa-laptop-code"></i>
+                Skills & Technologies
+              </h5>
+
+              <div class="certification-tags">
+                <span>
+                  <i class="fa-brands fa-r-project"></i>
+                  R Programming
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-square-root-variable"></i>
+                  Statistics
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-chart-line"></i>
+                  Linear Regression
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-cloud"></i>
+                  R Statistics Cloud
+                </span>
+              </div>
+            </div>
+
+            <!-- Google Drive Certificate -->
+            <div class="certification-actions">
+              <a
+                href="https://drive.google.com/file/d/1gFYzG8n38LM5xaglsFBhBgXyeJGvCkh5/view"
+                class="certification-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Lihat sertifikat Webinar dan Workshop Regresi Linier Berganda"
+              >
+                <i class="fa-brands fa-google-drive"></i>
+
+                <span>View Certificate</span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <!-- Card Footer -->
+            <div class="certification-card-footer">
+              <span>
+                <i class="fa-solid fa-certificate"></i>
+                WORKSHOP & TRAINING
+              </span>
+
+              <span>03 / 03</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- =========================================
+         CERTIFICATION FOOTER
+    ========================================== -->
+
+        <div class="certification-footer" data-reveal>
+          <div class="certification-footer-icon">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+
+          <div>
+            <h3>Learning Never Stops.</h3>
+
+            <p>
+              Terus mengembangkan kompetensi melalui sertifikasi, pelatihan, dan
+              pengalaman praktis untuk menghadapi perkembangan teknologi dan
+              kebutuhan industri.
+            </p>
+          </div>
+
+          <span class="certification-footer-decoration">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     CONTACT SECTION
+========================================== -->
+
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading" data-reveal>
+          <span class="section-eyebrow"> GET IN TOUCH </span>
+
+          <h2>Let's <span>Connect</span></h2>
+
+          <p>
+            Tertarik untuk berkolaborasi, berdiskusi mengenai teknologi,
+            pendidikan, atau pengembangan proyek? Mari terhubung dan menciptakan
+            sesuatu yang bermakna.
+          </p>
+        </div>
+
+        <!-- =========================================
+         CONTACT CONTENT
+    ========================================== -->
+
+        <div class="contact-direct-layout" data-reveal>
+          <!-- LEFT: CONTACT INTRODUCTION -->
+          <div class="contact-intro-card">
+            <span class="contact-label"> CONTACT INFORMATION </span>
+
+            <h3>
+              Let's create
+              <span>something great.</span>
+            </h3>
+
+            <p>
+              Saya terbuka untuk kesempatan mengajar coding, kolaborasi
+              pengembangan teknologi, serta proyek pendidikan dan software
+              development.
+            </p>
+
+            <!-- Contact Availability -->
+            <div class="contact-availability">
+              <span class="availability-icon">
+                <i class="fa-solid fa-handshake"></i>
+              </span>
+
+              <div>
+                <strong>Open for Collaboration</strong>
+
+                <small> Let's connect and share ideas. </small>
+              </div>
+            </div>
+
+            <!-- Contact Quote -->
+            <div class="contact-note">
+              <span>
+                <i class="fa-solid fa-quote-left"></i>
+              </span>
+
+              <p>
+                Every great collaboration starts with a simple conversation.
+              </p>
+            </div>
+          </div>
+
+          <!-- RIGHT: DIRECT CONTACT LINKS -->
+          <div class="contact-links">
+            <!-- EMAIL / GMAIL -->
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=arjunfirwanda%40gmail.com"
+              class="contact-link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Kirim email ke Arjun Yuda Firwanda melalui Gmail"
+            >
+              <div class="contact-link-icon email-link-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div class="contact-link-content">
+                <span>EMAIL</span>
+
+                <strong>arjunfirwanda@gmail.com</strong>
+
+                <small> Send an email via Gmail </small>
+              </div>
+
+              <div class="contact-link-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+            </a>
+
+            <!-- GITHUB -->
+            <a
+              href="https://github.com/arjunyudafirwanda"
+              class="contact-link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Kunjungi profil GitHub Arjun Yuda Firwanda"
+            >
+              <div class="contact-link-icon github-link-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+
+              <div class="contact-link-content">
+                <span>GITHUB</span>
+
+                <strong>Arjun Yuda Firwanda</strong>
+
+                <small> Explore my repositories and coding projects </small>
+              </div>
+
+              <div class="contact-link-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+            </a>
+
+            <!-- LINKEDIN -->
+            <a
+              href="https://www.linkedin.com/in/arjun-yuda-firwanda-8095261a4/"
+              class="contact-link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Kunjungi profil LinkedIn Arjun Yuda Firwanda"
+            >
+              <div class="contact-link-icon linkedin-link-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+
+              <div class="contact-link-content">
+                <span>LINKEDIN</span>
+
+                <strong>Arjun Yuda Firwanda</strong>
+
+                <small> Connect with me professionally </small>
+              </div>
+
+              <div class="contact-link-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- =========================================
+         BOTTOM CONTACT BANNER
+    ========================================== -->
+
+        <div class="contact-bottom-banner" data-reveal>
+          <span class="banner-symbol">
+            <i class="fa-solid fa-lightbulb"></i>
+          </span>
+
+          <div>
+            <h3>Thank you for visiting my portfolio.</h3>
+
+            <p>Let's learn, build, and create something meaningful.</p>
+          </div>
+
+          <span class="banner-decoration"> &lt;/&gt; </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>
+          Arjun Yuda Firwanda | © <span id="current-year"></span>
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button
+      type="button"
+      id="back-to-top"
+      class="back-to-top"
+      aria-label="Kembali ke bagian atas"
+      title="Back to Top"
+    >
+      <span aria-hidden="true">↑</span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
