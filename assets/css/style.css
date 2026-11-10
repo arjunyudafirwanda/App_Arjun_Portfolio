@@ -3650,13 +3650,8 @@ html[data-theme="light"] .nav-contact.active {
     color: #77839a;
   }
 
-  /* =========================================
-   57. LIGHT MODE ABOUT
-========================================= */
-
   html[data-theme="light"] .about-section {
     background: linear-gradient(180deg, #edf2fc, #f7f9ff);
-
     border-color: rgba(24, 39, 70, 0.1);
   }
 
@@ -3688,7 +3683,6 @@ html[data-theme="light"] .nav-contact.active {
 
   html[data-theme="light"] .about-philosophy {
     background: linear-gradient(145deg, #ffffff, #edf1fc);
-
     border-color: rgba(104, 76, 224, 0.19);
     box-shadow: 0 20px 50px rgba(30, 45, 80, 0.09);
   }
@@ -3718,19 +3712,13 @@ html[data-theme="light"] .nav-contact.active {
     background: rgba(104, 76, 224, 0.06);
   }
 
-  /* =========================================
-   58. LIGHT MODE SKILLS
-========================================= */
-
   html[data-theme="light"] .skills-section {
     background: #f5f7fc;
   }
 
   html[data-theme="light"] .skill-card {
     background: linear-gradient(145deg, #ffffff, #f0f3fc);
-
     border-color: rgba(24, 39, 70, 0.1);
-
     box-shadow: 0 8px 25px rgba(30, 45, 80, 0.04);
   }
 
@@ -3780,10 +3768,6 @@ html[data-theme="light"] .nav-contact.active {
     border-color: #b9aaf5;
   }
 
-  /* =========================================
-   59. LIGHT MODE PROJECTS
-========================================= */
-
   html[data-theme="light"] .projects-section {
     background:
       radial-gradient(
@@ -3792,7 +3776,6 @@ html[data-theme="light"] .nav-contact.active {
         transparent 30%
       ),
       #edf1fb;
-
     border-color: rgba(24, 39, 70, 0.1);
   }
 
@@ -3845,10 +3828,6 @@ html[data-theme="light"] .nav-contact.active {
     color: #77839a;
   }
 
-  /* =========================================
-   60. LIGHT MODE EXPERIENCE
-========================================= */
-
   html[data-theme="light"] .experience-section {
     background:
       radial-gradient(
@@ -3857,7 +3836,6 @@ html[data-theme="light"] .nav-contact.active {
         transparent 30%
       ),
       #f5f7fc;
-
     border-bottom-color: rgba(24, 39, 70, 0.1);
   }
 
@@ -3888,9 +3866,7 @@ html[data-theme="light"] .nav-contact.active {
 
   html[data-theme="light"] .journey-card {
     background: linear-gradient(145deg, #ffffff, #f0f3fc);
-
     border-color: rgba(24, 39, 70, 0.1);
-
     box-shadow: 0 8px 25px rgba(30, 45, 80, 0.04);
   }
 
@@ -3928,7 +3904,6 @@ html[data-theme="light"] .nav-contact.active {
       rgba(118, 88, 255, 0.08),
       rgba(0, 212, 255, 0.05)
     );
-
     border-color: rgba(118, 88, 255, 0.18);
   }
 
@@ -3940,10 +3915,6 @@ html[data-theme="light"] .nav-contact.active {
     color: #53617b;
   }
 
-  /* =========================================
-   61. LIGHT MODE CONTACT
-========================================= */
-
   html[data-theme="light"] .contact-section {
     background:
       radial-gradient(
@@ -3952,7 +3923,6 @@ html[data-theme="light"] .nav-contact.active {
         transparent 32%
       ),
       #edf1fb;
-
     border-bottom-color: rgba(24, 39, 70, 0.1);
   }
 
@@ -3988,9 +3958,7 @@ html[data-theme="light"] .nav-contact.active {
 
   html[data-theme="light"] .contact-form-card {
     background: linear-gradient(145deg, #ffffff, #f0f3fc);
-
     border-color: rgba(24, 39, 70, 0.1);
-
     box-shadow: 0 15px 40px rgba(30, 45, 80, 0.07);
   }
 
@@ -4009,9 +3977,7 @@ html[data-theme="light"] .nav-contact.active {
   html[data-theme="light"] .contact-form-group input,
   html[data-theme="light"] .contact-form-group textarea {
     color: #17213c;
-
     background: #f5f7fc;
-
     border-color: rgba(24, 39, 70, 0.13);
   }
 
@@ -4026,10 +3992,6 @@ html[data-theme="light"] .nav-contact.active {
     border-color: #078ca9;
   }
 
-  /* =========================================
-   62. LIGHT MODE FOOTER
-========================================= */
-
   html[data-theme="light"] .site-footer {
     background: #e9eef9;
     border-top-color: rgba(24, 39, 70, 0.1);
@@ -4038,10 +4000,6 @@ html[data-theme="light"] .nav-contact.active {
   html[data-theme="light"] .footer-content p {
     color: #65728b;
   }
-
-  /* =========================================
-   63. LIGHT MODE MOBILE MENU
-========================================= */
 
   html[data-theme="light"] .nav-links {
     background: #f5f7fc;
@@ -4056,10 +4014,6 @@ html[data-theme="light"] .nav-contact.active {
   html[data-theme="light"] .menu-toggle span {
     background: #263450;
   }
-
-  /* =========================================
-   64. THEME TRANSITIONS
-========================================= */
 
   body,
   .site-header,
@@ -4081,29 +4035,18 @@ html[data-theme="light"] .nav-contact.active {
       box-shadow 0.3s ease;
   }
 
-  /* =========================================
-   65. MOBILE THEME TOGGLE
-========================================= */
-
   @media (max-width: 850px) {
     .theme-toggle {
       min-width: 39px;
       width: 39px;
       height: 39px;
-
       padding: 0;
-
       flex-shrink: 0;
     }
-
     .theme-toggle-label {
       display: none;
     }
   }
-
-  /* =========================================
-   FOOTER - CENTER ALIGNMENT
-========================================= */
 
   .site-footer {
     width: 100%;
@@ -4112,28 +4055,21 @@ html[data-theme="light"] .nav-contact.active {
 
   .footer-content {
     min-height: 85px;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     gap: 9px;
     padding: 20px 0;
-
     text-align: center;
   }
 
   .footer-content p {
     width: 100%;
     margin: 0;
-
     color: var(--text-muted);
-
     font-size: 11px;
     line-height: 1.7;
-
     text-align: center;
   }
 
@@ -4141,13 +4077,9 @@ html[data-theme="light"] .nav-contact.active {
     letter-spacing: 0.5px;
   }
 
-  /* Footer Light Mode */
-
   html[data-theme="light"] .footer-content p {
     color: #65728b;
   }
-
-  /* Footer Responsive */
 
   @media (max-width: 600px) {
     .footer-content {
@@ -4155,23 +4087,17 @@ html[data-theme="light"] .nav-contact.active {
       padding: 20px 0;
       gap: 7px;
     }
-
     .footer-content p {
       font-size: 10px;
       text-align: center;
     }
   }
 
-  /* =========================================
-   HERO TECHNOLOGY TAGS WITH ICONS
-========================================= */
-
   .hero-tags span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 9px;
-
     transition:
       transform 0.3s ease,
       background 0.3s ease,
@@ -4183,8 +4109,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 14px;
     transition: transform 0.3s ease;
   }
-
-  /* Individual Icon Colors */
 
   .hero-tags .fa-python {
     color: #ffd43b;
@@ -4202,23 +4126,16 @@ html[data-theme="light"] .nav-contact.active {
     color: #5ae2a3;
   }
 
-  /* Hover Effect */
-
   .hero-tags span:hover {
     transform: translateY(-4px);
-
     background: rgba(0, 212, 255, 0.1);
-
     border-color: rgba(0, 212, 255, 0.35);
-
     box-shadow: 0 6px 18px rgba(0, 212, 255, 0.08);
   }
 
   .hero-tags span:hover i {
     transform: scale(1.2);
   }
-
-  /* Light Mode */
 
   html[data-theme="light"] .hero-tags span {
     background: #ffffff;
@@ -4230,18 +4147,10 @@ html[data-theme="light"] .nav-contact.active {
     border-color: #078ca9;
   }
 
-  /* =========================================
-   66. GLOBAL TYPOGRAPHY ENHANCEMENT
-========================================= */
-
-  /* Base typography */
-
   body {
     font-size: 15px;
     line-height: 1.7;
   }
-
-  /* Navbar */
 
   .brand-name {
     font-size: 16px;
@@ -4262,8 +4171,6 @@ html[data-theme="light"] .nav-contact.active {
   .theme-toggle {
     font-size: 11px;
   }
-
-  /* Hero Section */
 
   .hero-greeting {
     font-size: 16px;
@@ -4298,8 +4205,6 @@ html[data-theme="light"] .nav-contact.active {
   .social-text {
     font-size: 11px;
   }
-
-  /* Hero Profile Card */
 
   .visual-label {
     font-size: 10px;
@@ -4337,10 +4242,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 10px;
   }
 
-  /* =========================================
-   67. SECTION HEADINGS
-========================================= */
-
   .section-eyebrow {
     font-size: 11px;
   }
@@ -4349,10 +4250,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 14px;
     line-height: 1.9;
   }
-
-  /* =========================================
-   68. ABOUT ME
-========================================= */
 
   .about-label {
     font-size: 11px;
@@ -4396,10 +4293,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 9px;
   }
 
-  /* =========================================
-   69. SKILLS
-========================================= */
-
   .skill-card h3 {
     font-size: 18px;
   }
@@ -4427,10 +4320,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 11px;
     padding: 11px 15px;
   }
-
-  /* =========================================
-   70. PROJECTS
-========================================= */
 
   .filter-button {
     font-size: 11px;
@@ -4475,10 +4364,6 @@ html[data-theme="light"] .nav-contact.active {
   .projects-footer p {
     font-size: 12px;
   }
-
-  /* =========================================
-   71. EXPERIENCE & EDUCATION
-========================================= */
 
   .journey-heading h3 {
     font-size: 19px;
@@ -4534,10 +4419,6 @@ html[data-theme="light"] .nav-contact.active {
   .journey-quote p {
     font-size: 12px;
   }
-
-  /* =========================================
-   72. CONTACT
-========================================= */
 
   .contact-label {
     font-size: 10px;
@@ -4605,17 +4486,9 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 12px;
   }
 
-  /* =========================================
-   73. FOOTER
-========================================= */
-
   .footer-content p {
     font-size: 12px;
   }
-
-  /* =========================================
-   74. MOBILE TYPOGRAPHY
-========================================= */
 
   @media (max-width: 600px) {
     body {
@@ -4709,19 +4582,13 @@ html[data-theme="light"] .nav-contact.active {
     }
   }
 
-  /* =========================================
-   PHILOSOPHY FOOTER WITH ICONS
-========================================= */
-
   .philosophy-footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 9px;
-
     margin-top: 32px;
     padding-top: 22px;
-
     border-top: 1px solid var(--border);
   }
 
@@ -4730,20 +4597,14 @@ html[data-theme="light"] .nav-contact.active {
     align-items: center;
     justify-content: center;
     gap: 8px;
-
     padding: 9px 11px;
-
     background: rgba(255, 255, 255, 0.04);
-
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 7px;
-
     color: var(--text-muted);
-
     font-size: 9px;
     font-weight: 700;
     letter-spacing: 0.5px;
-
     transition:
       transform 0.3s ease,
       color 0.3s ease,
@@ -4751,16 +4612,11 @@ html[data-theme="light"] .nav-contact.active {
       border-color 0.3s ease;
   }
 
-  /* Icon Styling */
-
   .philosophy-footer span i {
     font-size: 13px;
     color: var(--cyan);
-
     transition: transform 0.3s ease;
   }
-
-  /* Individual Icon Colors */
 
   .philosophy-footer span:nth-child(1) i {
     color: #00d4ff;
@@ -4774,15 +4630,10 @@ html[data-theme="light"] .nav-contact.active {
     color: #5ae2a3;
   }
 
-  /* Hover Effect */
-
   .philosophy-footer span:hover {
     color: white;
-
     background: rgba(0, 212, 255, 0.07);
-
     border-color: rgba(0, 212, 255, 0.25);
-
     transform: translateY(-3px);
   }
 
@@ -4790,34 +4641,23 @@ html[data-theme="light"] .nav-contact.active {
     transform: scale(1.2);
   }
 
-  /* Light Mode */
-
   html[data-theme="light"] .philosophy-footer span {
     color: #53617b;
-
     background: rgba(104, 76, 224, 0.04);
-
     border-color: rgba(24, 39, 70, 0.1);
   }
 
   html[data-theme="light"] .philosophy-footer span:hover {
     color: #40318d;
-
     background: rgba(104, 76, 224, 0.09);
-
     border-color: rgba(104, 76, 224, 0.25);
   }
-
-  /* =========================================
-   SKILL TAGS WITH FONT AWESOME ICONS
-========================================= */
 
   .skill-tags span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-
     transition:
       transform 0.3s ease,
       color 0.3s ease,
@@ -4826,63 +4666,43 @@ html[data-theme="light"] .nav-contact.active {
       box-shadow 0.3s ease;
   }
 
-  /* Icon Styling */
-
   .skill-tags span i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     font-size: 13px;
-
     color: var(--cyan);
-
     transition:
       transform 0.3s ease,
       color 0.3s ease;
   }
 
-  /* Teaching Icons */
-
   .skill-card:nth-child(1) .skill-tags i {
     color: #00d4ff;
   }
-
-  /* Programming Icons */
 
   .skill-card:nth-child(2) .skill-tags i {
     color: #a88aff;
   }
 
-  /* Web Development Icons */
-
   .skill-card:nth-child(3) .skill-tags i {
     color: #ffbd70;
   }
-
-  /* IoT Icons */
 
   .skill-card:nth-child(4) .skill-tags i {
     color: #5ae2a3;
   }
 
-  /* Hover Effect */
-
   .skill-tags span:hover {
     transform: translateY(-3px);
-
     background: rgba(0, 212, 255, 0.08);
-
     border-color: rgba(0, 212, 255, 0.3);
-
     box-shadow: 0 5px 15px rgba(0, 212, 255, 0.07);
   }
 
   .skill-tags span:hover i {
     transform: scale(1.2);
   }
-
-  /* Light Mode */
 
   html[data-theme="light"] .skill-tags span {
     background: #ffffff;
@@ -4894,16 +4714,11 @@ html[data-theme="light"] .nav-contact.active {
     border-color: #078ca9;
   }
 
-  /* =========================================
-   DEVELOPMENT TOOLS WITH ICONS
-========================================= */
-
   .tools-list span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 9px;
-
     transition:
       transform 0.3s ease,
       color 0.3s ease,
@@ -4915,13 +4730,10 @@ html[data-theme="light"] .nav-contact.active {
   .tools-list span i {
     font-size: 14px;
     color: var(--cyan);
-
     transition:
       transform 0.3s ease,
       color 0.3s ease;
   }
-
-  /* Individual Tool Colors */
 
   .tools-list .fa-code {
     color: #39a6ff;
@@ -4943,15 +4755,10 @@ html[data-theme="light"] .nav-contact.active {
     color: #8b75ff;
   }
 
-  /* Hover Animation */
-
   .tools-list span:hover {
     transform: translateY(-4px);
-
     background: rgba(0, 212, 255, 0.09);
-
     border-color: rgba(0, 212, 255, 0.3);
-
     box-shadow: 0 5px 15px rgba(0, 212, 255, 0.08);
   }
 
@@ -4959,15 +4766,9 @@ html[data-theme="light"] .nav-contact.active {
     transform: scale(1.2);
   }
 
-  /* Light Mode */
-
   html[data-theme="light"] .tools-list .fa-github {
     color: #17213c;
   }
-
-  /* =========================================
-   75. PROJECT GRID - 12 PROJECTS
-========================================= */
 
   .projects-grid {
     display: grid;
@@ -4996,10 +4797,6 @@ html[data-theme="light"] .nav-contact.active {
     margin-top: auto;
   }
 
-  /* =========================================
-   76. REAL PROJECT SCREENSHOTS
-========================================= */
-
   .project-image-photo {
     background: #10172f;
     padding: 0;
@@ -5016,10 +4813,8 @@ html[data-theme="light"] .nav-contact.active {
     width: 100%;
     height: 100%;
     display: block;
-
     object-fit: cover;
     object-position: center;
-
     transition: transform 0.5s ease;
   }
 
@@ -5030,20 +4825,15 @@ html[data-theme="light"] .nav-contact.active {
   .photo-overlay {
     position: absolute;
     inset: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
-
     background: rgba(8, 14, 36, 0.65);
-
     opacity: 0;
-
     transition: opacity 0.3s ease;
   }
 
@@ -5056,18 +4846,12 @@ html[data-theme="light"] .nav-contact.active {
     pointer-events: none;
   }
 
-  /* =========================================
-   77. PROJECT ART COVERS
-========================================= */
-
   .project-art {
     position: relative;
     overflow: hidden;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     min-height: 220px;
     padding: 20px;
   }
@@ -5085,7 +4869,6 @@ html[data-theme="light"] .nav-contact.active {
     height: 190px;
     top: -100px;
     right: -70px;
-
     background: rgba(255, 255, 255, 0.06);
     filter: blur(5px);
   }
@@ -5095,33 +4878,26 @@ html[data-theme="light"] .nav-contact.active {
     height: 160px;
     bottom: -100px;
     left: -55px;
-
     border: 1px solid rgba(255, 255, 255, 0.12);
   }
 
   .art-content {
     position: relative;
     z-index: 1;
-
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
   }
 
   .art-content > i {
     font-size: 46px;
     margin-bottom: 20px;
-
     background: linear-gradient(135deg, #ffffff, #9deaff);
-
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
     transition: transform 0.4s ease;
   }
 
@@ -5131,35 +4907,26 @@ html[data-theme="light"] .nav-contact.active {
 
   .art-content > span {
     color: rgba(255, 255, 255, 0.75);
-
     font-size: 8px;
     font-weight: 800;
     letter-spacing: 2px;
-
     margin-bottom: 9px;
   }
 
   .art-content h3 {
     color: #ffffff;
-
     font-size: 21px;
     font-weight: 800;
-
     line-height: 1.4;
     margin-bottom: 8px;
   }
 
   .art-content p {
     color: rgba(255, 255, 255, 0.7);
-
     font-size: 8px;
     font-weight: 700;
     letter-spacing: 1.5px;
   }
-
-  /* =========================================
-   78. INDIVIDUAL PROJECT COLORS
-========================================= */
 
   .art-coffee {
     background: linear-gradient(135deg, #392418, #9b5632);
@@ -5197,10 +4964,6 @@ html[data-theme="light"] .nav-contact.active {
     background: linear-gradient(135deg, #2e3245, #626c90);
   }
 
-  /* =========================================
-   79. PROJECT TAG ICONS
-========================================= */
-
   .project-tech span {
     display: inline-flex;
     align-items: center;
@@ -5211,7 +4974,6 @@ html[data-theme="light"] .nav-contact.active {
   .project-tech span i {
     color: var(--cyan);
     font-size: 11px;
-
     transition: transform 0.25s ease;
   }
 
@@ -5219,8 +4981,6 @@ html[data-theme="light"] .nav-contact.active {
     transform: scale(1.2);
     color: var(--purple);
   }
-
-  /* Project action icon */
 
   .project-detail-link {
     display: inline-flex;
@@ -5231,7 +4991,6 @@ html[data-theme="light"] .nav-contact.active {
   .project-detail-link i {
     color: var(--cyan);
     font-size: 12px;
-
     transition: transform 0.3s ease;
   }
 
@@ -5239,17 +4998,11 @@ html[data-theme="light"] .nav-contact.active {
     transform: translate(3px, -3px);
   }
 
-  /* =========================================
-   80. PROJECT DISCLAIMER
-========================================= */
-
   .project-disclaimer {
     display: flex;
     align-items: flex-start;
     gap: 7px;
-
     margin-top: 15px;
-
     color: var(--text-muted);
     font-size: 9px;
     line-height: 1.7;
@@ -5259,10 +5012,6 @@ html[data-theme="light"] .nav-contact.active {
     color: #ffbd70;
     margin-top: 2px;
   }
-
-  /* =========================================
-   81. PROJECTS RESPONSIVE
-========================================= */
 
   @media (max-width: 1000px) {
     .projects-grid {
@@ -5293,10 +5042,6 @@ html[data-theme="light"] .nav-contact.active {
     }
   }
 
-  /* =========================================
-   PROJECT TECHNOLOGY TAGS WITH ICONS
-========================================= */
-
   .project-tech span {
     display: inline-flex;
     align-items: center;
@@ -5317,16 +5062,11 @@ html[data-theme="light"] .nav-contact.active {
     color: var(--primary-color);
   }
 
-  /* =========================================
-   CERTIFICATIONS SECTION
-========================================= */
-
   .certifications-section {
     position: relative;
     overflow: hidden;
   }
 
-  /* Certification Grid */
   .certification-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -5334,7 +5074,6 @@ html[data-theme="light"] .nav-contact.active {
     align-items: stretch;
   }
 
-  /* Certification Card */
   .certification-card {
     position: relative;
     display: flex;
@@ -5342,11 +5081,9 @@ html[data-theme="light"] .nav-contact.active {
     height: 100%;
     padding: 26px;
     overflow: hidden;
-
     background: rgba(128, 128, 128, 0.055);
     border: 1px solid rgba(128, 128, 128, 0.25);
     border-radius: 20px;
-
     transition:
       transform 0.35s ease,
       border-color 0.35s ease,
@@ -5359,7 +5096,6 @@ html[data-theme="light"] .nav-contact.active {
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
   }
 
-  /* Card Header */
   .certification-card-header {
     display: flex;
     align-items: center;
@@ -5368,19 +5104,15 @@ html[data-theme="light"] .nav-contact.active {
     margin-bottom: 22px;
   }
 
-  /* Certification Icon */
   .certification-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 54px;
     height: 54px;
     flex-shrink: 0;
-
     border-radius: 15px;
     font-size: 22px;
-
     transition: transform 0.3s ease;
   }
 
@@ -5403,32 +5135,26 @@ html[data-theme="light"] .nav-contact.active {
     background: rgba(16, 185, 129, 0.15);
   }
 
-  /* Certification Type */
   .certification-type {
     padding: 7px 10px;
     border: 1px solid rgba(128, 128, 128, 0.25);
     border-radius: 30px;
-
     font-size: 0.66rem;
     font-weight: 800;
     letter-spacing: 0.7px;
     text-align: center;
-
     color: inherit;
     opacity: 0.8;
   }
 
-  /* Date */
   .certification-date {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-bottom: 14px;
-
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.5px;
-
     color: #8b9cff;
   }
 
@@ -5436,7 +5162,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 0.9rem;
   }
 
-  /* Title */
   .certification-card h3 {
     margin: 0 0 12px;
     font-size: 1.2rem;
@@ -5444,16 +5169,13 @@ html[data-theme="light"] .nav-contact.active {
     font-weight: 800;
   }
 
-  /* Organization */
   .certification-card h4 {
     display: flex;
     align-items: center;
     gap: 8px;
-
     margin: 0 0 16px;
     font-size: 0.9rem;
     font-weight: 700;
-
     opacity: 0.85;
   }
 
@@ -5461,7 +5183,6 @@ html[data-theme="light"] .nav-contact.active {
     color: #8b9cff;
   }
 
-  /* Description */
   .certification-description {
     margin: 0 0 22px;
     font-size: 0.88rem;
@@ -5469,7 +5190,6 @@ html[data-theme="light"] .nav-contact.active {
     opacity: 0.8;
   }
 
-  /* Learning Materials */
   .certification-learning,
   .certification-skills {
     margin-bottom: 22px;
@@ -5480,7 +5200,6 @@ html[data-theme="light"] .nav-contact.active {
     display: flex;
     align-items: center;
     gap: 9px;
-
     margin: 0 0 12px;
     font-size: 0.88rem;
     font-weight: 800;
@@ -5491,12 +5210,10 @@ html[data-theme="light"] .nav-contact.active {
     color: #8b9cff;
   }
 
-  /* Learning List */
   .certification-learning ul {
     display: flex;
     flex-direction: column;
     gap: 9px;
-
     margin: 0;
     padding: 0;
     list-style: none;
@@ -5505,7 +5222,6 @@ html[data-theme="light"] .nav-contact.active {
   .certification-learning li {
     position: relative;
     padding-left: 20px;
-
     font-size: 0.82rem;
     line-height: 1.6;
     opacity: 0.8;
@@ -5513,19 +5229,15 @@ html[data-theme="light"] .nav-contact.active {
 
   .certification-learning li::before {
     content: "\f00c";
-
     position: absolute;
     top: 3px;
     left: 0;
-
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-
     font-size: 0.72rem;
     color: #60a5fa;
   }
 
-  /* Certification Skills Tags */
   .certification-tags {
     display: flex;
     flex-wrap: wrap;
@@ -5536,17 +5248,12 @@ html[data-theme="light"] .nav-contact.active {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-
     padding: 7px 10px;
-
     border: 1px solid rgba(128, 128, 128, 0.23);
     border-radius: 8px;
-
     font-size: 0.75rem;
     font-weight: 600;
-
     background: rgba(128, 128, 128, 0.055);
-
     transition:
       transform 0.25s ease,
       border-color 0.25s ease;
@@ -5562,16 +5269,13 @@ html[data-theme="light"] .nav-contact.active {
     color: #8b9cff;
   }
 
-  /* Card Footer */
   .certification-card-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-
     margin-top: auto;
     padding-top: 18px;
-
     border-top: 1px solid rgba(128, 128, 128, 0.2);
   }
 
@@ -5579,11 +5283,9 @@ html[data-theme="light"] .nav-contact.active {
     display: flex;
     align-items: center;
     gap: 7px;
-
     font-size: 0.65rem;
     font-weight: 800;
     letter-spacing: 0.65px;
-
     opacity: 0.75;
   }
 
@@ -5597,18 +5299,14 @@ html[data-theme="light"] .nav-contact.active {
     opacity: 0.6;
   }
 
-  /* Bottom Banner */
   .certification-footer {
     display: flex;
     align-items: center;
     gap: 22px;
-
     margin-top: 45px;
     padding: 28px 32px;
-
     border: 1px solid rgba(128, 128, 128, 0.25);
     border-radius: 18px;
-
     background: rgba(128, 128, 128, 0.055);
   }
 
@@ -5616,16 +5314,12 @@ html[data-theme="light"] .nav-contact.active {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 55px;
     height: 55px;
     flex-shrink: 0;
-
     border-radius: 15px;
-
     color: #fbbf24;
     background: rgba(245, 158, 11, 0.13);
-
     font-size: 22px;
   }
 
@@ -5646,10 +5340,6 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 42px;
     opacity: 0.16;
   }
-
-  /* =========================================
-   CERTIFICATIONS RESPONSIVE
-========================================= */
 
   @media (max-width: 1100px) {
     .certification-grid {
@@ -5688,109 +5378,62 @@ html[data-theme="light"] .nav-contact.active {
     }
   }
 
-  /* =========================================
-   CERTIFICATION GOOGLE DRIVE BUTTON
-========================================= */
-
-  /* =========================================
-   CERTIFICATIONS SECTION
-========================================= */
-
   .certifications-section {
     position: relative;
     overflow: hidden;
   }
 
-  /* =========================================
-   CERTIFICATION GRID
-========================================= */
-
   .certification-grid {
     display: grid;
-
     grid-template-columns: repeat(3, minmax(0, 1fr));
-
     grid-auto-rows: 1fr;
-
     align-items: stretch;
-
     gap: 24px;
   }
 
-  /* =========================================
-   CERTIFICATION CARD
-========================================= */
-
   .certification-card {
     position: relative;
-
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 100%;
-
     min-width: 0;
     box-sizing: border-box;
-
     padding: 26px;
-
     overflow: hidden;
-
     background: rgba(128, 128, 128, 0.055);
-
     border: 1px solid rgba(128, 128, 128, 0.25);
-
     border-radius: 20px;
-
     transition:
       transform 0.35s ease,
       border-color 0.35s ease,
       box-shadow 0.35s ease;
   }
 
-  /* Card Hover */
   .certification-card:hover {
     transform: translateY(-7px);
-
     border-color: rgba(99, 102, 241, 0.65);
-
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
   }
 
-  /* =========================================
-   CARD HEADER
-========================================= */
-
   .certification-card-header {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     gap: 12px;
-
     min-height: 58px;
-
     margin-bottom: 22px;
   }
 
-  /* Certification Icon */
   .certification-icon {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     width: 54px;
     height: 54px;
-
     flex-shrink: 0;
-
     border-radius: 15px;
-
     font-size: 22px;
-
     transition: transform 0.3s ease;
   }
 
@@ -5798,75 +5441,47 @@ html[data-theme="light"] .nav-contact.active {
     transform: scale(1.08) rotate(-4deg);
   }
 
-  /* Icon Colors */
   .analytics-cert-icon {
     color: #60a5fa;
-
     background: rgba(59, 130, 246, 0.15);
   }
 
   .datascience-cert-icon {
     color: #a78bfa;
-
     background: rgba(139, 92, 246, 0.15);
   }
 
   .statistics-cert-icon {
     color: #34d399;
-
     background: rgba(16, 185, 129, 0.15);
   }
 
-  /* Certification Type */
   .certification-type {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     max-width: 70%;
     min-height: 32px;
-
     padding: 7px 10px;
-
     border: 1px solid rgba(128, 128, 128, 0.25);
-
     border-radius: 30px;
-
     font-size: 0.66rem;
-
     font-weight: 800;
-
     letter-spacing: 0.7px;
-
     line-height: 1.5;
-
     text-align: center;
-
     opacity: 0.8;
   }
 
-  /* =========================================
-   CERTIFICATION DATE
-========================================= */
-
   .certification-date {
     display: flex;
-
     align-items: center;
-
     gap: 8px;
-
     min-height: 24px;
-
     margin-bottom: 14px;
-
     font-size: 0.78rem;
-
     font-weight: 700;
-
     letter-spacing: 0.5px;
-
     color: #8b9cff;
   }
 
@@ -5874,43 +5489,23 @@ html[data-theme="light"] .nav-contact.active {
     font-size: 0.9rem;
   }
 
-  /* =========================================
-   CERTIFICATION TITLE
-========================================= */
-
   .certification-card h3 {
     min-height: 5.5rem;
-
     margin: 0 0 12px;
-
     font-size: 1.2rem;
-
     line-height: 1.5;
-
     font-weight: 800;
   }
 
-  /* =========================================
-   ORGANIZATION
-========================================= */
-
   .certification-card h4 {
     display: flex;
-
     align-items: flex-start;
-
     gap: 8px;
-
     min-height: 2.8rem;
-
     margin: 0 0 16px;
-
     font-size: 0.9rem;
-
     font-weight: 700;
-
     line-height: 1.6;
-
     opacity: 0.85;
   }
 
