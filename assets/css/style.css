@@ -138,15 +138,12 @@ button {
 
 .nav-link.active {
   color: white;
-
   background: linear-gradient(
     120deg,
     rgba(118, 88, 255, 0.22),
     rgba(0, 212, 255, 0.1)
   );
-
   border-color: rgba(0, 212, 255, 0.28);
-
   box-shadow:
     0 4px 15px rgba(0, 212, 255, 0.08),
     inset 0 0 12px rgba(118, 88, 255, 0.05);
@@ -195,15 +192,12 @@ button {
 
 .nav-contact.active {
   color: white;
-
   background: linear-gradient(
     120deg,
     rgba(118, 88, 255, 0.28),
     rgba(0, 212, 255, 0.13)
   );
-
   border-color: rgba(0, 212, 255, 0.45);
-
   box-shadow:
     0 4px 15px rgba(0, 212, 255, 0.12),
     inset 0 0 12px rgba(118, 88, 255, 0.08);
@@ -1156,10 +1150,8 @@ html[data-theme="light"] .nav-contact.active {
 
   .about-philosophy > p {
     color: var(--text-secondary);
-
     font-size: 12px;
     line-height: 1.9;
-
     margin-bottom: 27px;
   }
 
@@ -1192,7 +1184,6 @@ html[data-theme="light"] .nav-contact.active {
 
   .philosophy-item small {
     color: var(--text-muted);
-
     font-size: 10px;
     line-height: 1.7;
   }
@@ -6102,138 +6093,94 @@ html[data-theme="light"] .nav-contact.active {
 
   .certification-footer-icon {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     width: 55px;
     height: 55px;
-
     flex-shrink: 0;
-
     border-radius: 15px;
-
     color: #fbbf24;
-
     background: rgba(245, 158, 11, 0.13);
-
     font-size: 22px;
   }
 
-  /* Banner Title */
   .certification-footer h3 {
     margin: 0 0 8px;
-
     font-size: 1.15rem;
   }
 
-  /* Banner Description */
   .certification-footer p {
     margin: 0;
-
     font-size: 0.87rem;
-
     line-height: 1.7;
-
     opacity: 0.75;
   }
 
-  /* Banner Decoration */
   .certification-footer-decoration {
     margin-left: auto;
-
     flex-shrink: 0;
-
     font-size: 42px;
-
     opacity: 0.16;
   }
 
-  /* =========================================
-   CERTIFICATIONS RESPONSIVE
-========================================= */
-
-  /* Tablet */
   @media (max-width: 1100px) {
     .certification-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-
       align-items: stretch;
     }
   }
 
-  /* Mobile */
   @media (max-width: 650px) {
     .certification-grid {
       grid-template-columns: 1fr;
-
       gap: 20px;
     }
 
     .certification-card {
       height: auto;
-
       min-height: 0;
-
       padding: 22px;
     }
 
-    /* Reset Fixed Heights */
     .certification-title {
       display: block;
-
       height: auto;
-
       min-height: 0;
-
       overflow: visible;
     }
 
     .certification-organization {
       height: auto;
-
       min-height: 0;
     }
 
     .certification-description {
       height: auto;
-
       min-height: 0;
-
       overflow: visible;
     }
 
     .certification-learning {
       height: auto;
-
       min-height: 0;
-
       overflow: visible;
     }
 
     .certification-skills {
       height: auto;
-
       min-height: 0;
     }
 
-    /* Certificate Button */
     .certification-actions {
       height: 46px;
-
       min-height: 46px;
-
       margin-top: 16px;
-
       margin-bottom: 18px;
     }
 
-    /* Footer */
     .certification-footer {
       align-items: flex-start;
-
       padding: 22px;
-
       gap: 15px;
     }
 
@@ -6243,14 +6190,11 @@ html[data-theme="light"] .nav-contact.active {
 
     .certification-footer-icon {
       width: 45px;
-
       height: 45px;
-
       font-size: 18px;
     }
   }
 
-  /* Small Mobile */
   @media (max-width: 400px) {
     .certification-card {
       padding: 18px;
@@ -6262,9 +6206,7 @@ html[data-theme="light"] .nav-contact.active {
 
     .certification-type {
       width: 72%;
-
       font-size: 0.59rem;
-
       padding: 6px 8px;
     }
 
@@ -6274,14 +6216,9 @@ html[data-theme="light"] .nav-contact.active {
 
     .certification-link {
       height: 44px;
-
       font-size: 0.82rem;
     }
   }
-
-  /* =========================================
-   PPG PORTFOLIO LINK
-========================================= */
 
   .journey-portfolio-action {
     width: 100%;
@@ -6293,23 +6230,17 @@ html[data-theme="light"] .nav-contact.active {
     align-items: center;
     justify-content: center;
     gap: 10px;
-
     width: 100%;
     min-height: 44px;
     box-sizing: border-box;
-
     padding: 11px 15px;
-
     color: #ffffff;
     background: linear-gradient(135deg, #6366f1, #8b5cf6);
-
     border: 1px solid transparent;
     border-radius: 10px;
-
     font-size: 0.84rem;
     font-weight: 700;
     text-decoration: none;
-
     transition:
       transform 0.3s ease,
       box-shadow 0.3s ease;
@@ -6343,37 +6274,24 @@ html[data-theme="light"] .nav-contact.active {
     }
   }
 
-  /* =========================================
-   NAVBAR ACTIVE STATE - SCROLL SPY
-========================================= */
-
-  /* Active Navigation Link */
   .nav-links .nav-link.active {
     color: var(--primary-color);
     position: relative;
   }
 
-  /* Active Indicator */
   .nav-links .nav-link.active::after {
     content: "";
-
     position: absolute;
-
     bottom: -7px;
     left: 0;
-
     width: 100%;
     height: 2px;
-
     background: var(--primary-color);
-
     border-radius: 10px;
   }
 
-  /* Active Contact Button */
   .nav-contact.active {
     box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.45);
-
     transform: translateY(-1px);
   }
 }
