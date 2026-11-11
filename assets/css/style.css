@@ -6294,4 +6294,166 @@ html[data-theme="light"] .nav-contact.active {
     box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.45);
     transform: translateY(-1px);
   }
+
+
+/* =====================================================
+   PROJECT BUTTONS - DARK MODE & LIGHT MODE
+===================================================== */
+
+/* Default Theme: Dark Mode */
+:root {
+  --project-button-start: #4f46e5;
+  --project-button-end: #7c3aed;
+
+  --project-button-hover-start: #4338ca;
+  --project-button-hover-end: #6d28d9;
+
+  --project-button-text: #ffffff;
+  --project-button-border: rgba(165, 180, 252, 0.26);
+  --project-button-shadow: rgba(79, 70, 229, 0.25);
+
+  --project-index-color: #aab6cf;
+}
+
+/* Light Mode */
+html[data-theme="light"] {
+  --project-button-start: #4338ca;
+  --project-button-end: #6d28d9;
+
+  --project-button-hover-start: #3730a3;
+  --project-button-hover-end: #5b21b6;
+
+  --project-button-text: #ffffff;
+  --project-button-border: rgba(67, 56, 202, 0.18);
+  --project-button-shadow: rgba(79, 70, 229, 0.18);
+
+  --project-index-color: #667085;
+}
+
+/* Project Bottom Layout */
+#projects .project-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Main Button */
+#projects .project-bottom .project-detail-link,
+#projects .project-bottom .project-detail-link:link,
+#projects .project-bottom .project-detail-link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  position: relative;
+  width: 100%;
+  min-height: 48px;
+  box-sizing: border-box;
+
+  padding: 12px 16px;
+
+  color: var(--project-button-text) !important;
+  -webkit-text-fill-color: var(--project-button-text);
+
+  background: linear-gradient(
+    135deg,
+    var(--project-button-start),
+    var(--project-button-end)
+  );
+
+  border: 1px solid var(--project-button-border);
+  border-radius: 12px;
+
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+
+  text-decoration: none !important;
+
+  box-shadow: 0 6px 16px var(--project-button-shadow);
+
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* Button Icons */
+#projects .project-bottom .project-detail-link i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  color: var(--project-button-text) !important;
+  -webkit-text-fill-color: var(--project-button-text);
+
+  font-size: 0.9rem;
+}
+
+/* Hover Effect */
+#projects .project-bottom .project-detail-link:hover {
+  color: var(--project-button-text) !important;
+  -webkit-text-fill-color: var(--project-button-text);
+
+  background: linear-gradient(
+    135deg,
+    var(--project-button-hover-start),
+    var(--project-button-hover-end)
+  );
+
+  border-color: var(--project-button-border);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 22px var(--project-button-shadow);
+}
+
+/* Click Effect */
+#projects .project-bottom .project-detail-link:active {
+  transform: translateY(-1px);
+}
+
+/* Keyboard Accessibility */
+#projects .project-bottom .project-detail-link:focus-visible {
+  outline: 3px solid rgba(129, 140, 248, 0.55);
+  outline-offset: 4px;
+}
+
+/* Project Number */
+#projects .project-bottom .project-index {
+  display: block;
+  align-self: flex-end;
+
+  color: var(--project-index-color);
+
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  #projects .project-bottom .project-detail-link {
+    transition: none;
+  }
+
+  #projects .project-bottom .project-detail-link:hover {
+    transform: none;
+  }
+}
+
 }
