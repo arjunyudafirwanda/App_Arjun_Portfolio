@@ -6616,4 +6616,24 @@ html[data-theme="light"] {
   }
 }
 
+.project-image.project-art.art-smart-quiz {
+  background:
+    radial-gradient(
+      circle at 18% 20%,
+      rgba(255, 255, 255, 0.16) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 82% 75%,
+      rgba(255, 255, 255, 0.12) 0 3px,
+      transparent 4px
+    ),
+    linear-gradient(
+      135deg,
+      #172554 0%,
+      #4338ca 55%,
+      #7c3aed 100%
+    );
+}
+
 }
