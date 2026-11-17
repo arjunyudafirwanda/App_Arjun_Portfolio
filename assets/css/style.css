@@ -6500,4 +6500,120 @@ html[data-theme="light"] {
   }
 }
 
+.art-animal-safari {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(255, 221, 123, 0.28),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 10% 90%,
+      rgba(105, 190, 125, 0.25),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #173e35 0%,
+      #286f50 48%,
+      #4d9865 100%
+    );
+}
+
+.art-animal-safari::before {
+  content: "🌿";
+  position: absolute;
+  top: 13%;
+  right: 13%;
+  font-size: 48px;
+  opacity: 0.55;
+  transform: rotate(20deg);
+  animation: safariLeafFloat 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.art-animal-safari::after {
+  content: "⭐";
+  position: absolute;
+  right: 28%;
+  bottom: 15%;
+  font-size: 25px;
+  opacity: 0.8;
+  animation: safariStarFloat 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.art-animal-safari .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-animal-safari .art-content > i {
+  display: block;
+  color: #ffda78;
+  font-size: 42px;
+  margin-bottom: 14px;
+  animation: safariPawFloat 3s ease-in-out infinite;
+}
+
+.art-animal-safari .art-content > span {
+  color: #d8f1d9;
+}
+
+.art-animal-safari .art-content h3 {
+  color: #ffffff;
+}
+
+.art-animal-safari .art-content p {
+  color: #e1f3da;
+  letter-spacing: 1px;
+}
+
+@keyframes safariLeafFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(20deg);
+  }
+
+  50% {
+    transform: translateY(-8px) rotate(28deg);
+  }
+}
+
+@keyframes safariStarFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.65;
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.12);
+    opacity: 1;
+  }
+}
+
+@keyframes safariPawFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .art-animal-safari::before,
+  .art-animal-safari::after,
+  .art-animal-safari .art-content > i {
+    animation: none;
+  }
+}
+
 }
