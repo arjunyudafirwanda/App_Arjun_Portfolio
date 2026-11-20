@@ -6636,4 +6636,29 @@ html[data-theme="light"] {
     );
 }
 
+.project-image.project-art.art-coin-collector {
+  background:
+    radial-gradient(
+      circle at 18% 20%,
+      rgba(255, 255, 255, 0.17) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 82% 75%,
+      rgba(255, 255, 255, 0.14) 0 3px,
+      transparent 4px
+    ),
+    linear-gradient(
+      135deg,
+      #102a43 0%,
+      #176b87 52%,
+      #159e91 100%
+    );
+}
+
+.project-link-disabled {
+  cursor: default;
+  opacity: 0.75;
+  pointer-events: none;
+}
 }
