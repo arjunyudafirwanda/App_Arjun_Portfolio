@@ -193,44 +193,55 @@ document.addEventListener("DOMContentLoaded", function () {
   const filterButtons = document.querySelectorAll(".filter-button");
   const projectCards = document.querySelectorAll(".project-card");
 
+  function applyProjectFilter(selectedFilter, shouldAnimate = true) {
+    filterButtons.forEach(function (button) {
+      const isActive = button.dataset.filter === selectedFilter;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+
+    projectCards.forEach(function (card) {
+      const categories = (card.dataset.category || "")
+        .split(/\s+/)
+        .filter(Boolean);
+      const shouldShow =
+        selectedFilter === "all" || categories.includes(selectedFilter);
+
+      card.hidden = !shouldShow;
+
+      if (
+        shouldShow &&
+        shouldAnimate &&
+        !reduceMotion &&
+        typeof card.animate === "function"
+      ) {
+        card.animate(
+          [
+            {
+              opacity: 0,
+              transform: "translateY(15px)",
+            },
+            {
+              opacity: 1,
+              transform: "translateY(0)",
+            },
+          ],
+          {
+            duration: 350,
+            easing: "ease-out",
+          },
+        );
+      }
+    });
+  }
+
   filterButtons.forEach(function (button) {
     button.addEventListener("click", function () {
-      const selectedFilter = button.dataset.filter;
-      filterButtons.forEach(function (item) {
-        item.classList.remove("active");
-        item.setAttribute("aria-pressed", "false");
-      });
-
-      button.classList.add("active");
-      button.setAttribute("aria-pressed", "true");
-
-      projectCards.forEach(function (card) {
-        const categories = card.dataset.category.split(" ");
-        const shouldShow =
-          selectedFilter === "all" || categories.includes(selectedFilter);
-        card.hidden = !shouldShow;
-
-        if (shouldShow) {
-          card.animate(
-            [
-              {
-                opacity: 0,
-                transform: "translateY(15px)",
-              },
-              {
-                opacity: 1,
-                transform: "translateY(0)",
-              },
-            ],
-            {
-              duration: 350,
-              easing: "ease-out",
-            },
-          );
-        }
-      });
+      applyProjectFilter(button.dataset.filter);
     });
   });
+
+  applyProjectFilter("all", false);
 
   const contactForm = document.getElementById("contact-form");
   const contactFeedback = document.getElementById("contact-feedback");

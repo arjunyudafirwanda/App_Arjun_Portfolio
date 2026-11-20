@@ -43,6 +43,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 ## 🛠️ Skills & Technologies
 
 ### Teaching & Learning
+
 - Teaching Materials and Lesson Plans (Modul Ajar)
 - Student Worksheets (LKPD)
 - Learning Assessment
@@ -52,6 +53,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 - Differentiated Learning
 
 ### Programming
+
 - Python
 - R
 - PHP
@@ -61,6 +63,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 - JavaScript
 
 ### Web Development
+
 - Laravel
 - Flask
 - Streamlit
@@ -68,6 +71,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 - Bootstrap
 
 ### Data Science & Analytics
+
 - Data Preparation
 - Exploratory Data Analysis
 - Data Visualization
@@ -82,6 +86,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 - Machine Learning Model Development
 
 ### Internet of Things
+
 - ESP32
 - Arduino UNO
 - Arduino Nano
@@ -95,6 +100,7 @@ I believe technology can be a meaningful tool for education, innovation, and sol
 - Arduino IDE
 
 ### Development Tools
+
 - Visual Studio Code
 - Git
 - GitHub
@@ -118,6 +124,7 @@ The following projects demonstrate my experience in software development, data a
 A web-based discount calculator built with Python Flask to calculate product subtotals, discount amounts, and final payment totals automatically.
 
 **Features:**
+
 - Product price input.
 - Discount percentage calculation.
 - Quantity calculation.
@@ -231,12 +238,14 @@ An application for classifying regional poverty levels in Indonesia using a Deci
 ## 🎓 Education
 
 ### Pendidikan Profesi Guru (PPG) Calon Guru
+
 **Universitas Pendidikan Indonesia**  
 January 2026 – Present
 
 Informatics teacher professional education program focused on developing pedagogical, professional, social, and personal competencies.
 
 ### Diploma IV – Teknik Informatika
+
 **Politeknik Pos Indonesia**  
 September 2017 – September 2021
 
@@ -244,6 +253,7 @@ Degree: Sarjana Terapan Komputer (S.Tr.Kom.)
 GPA: 3.38
 
 **Scientific Publications:**
+
 1. Aplikasi Supervisi Kebersihan Ruangan Menggunakan QR Code di Sekolah Dasar Negeri 1 Cipunagara (2019).
 2. Penentuan Rute Terpendek Lokasi Badan Pusat Statistik Kota Bandung dengan Algoritma Dijkstra (2021).
 
@@ -252,24 +262,28 @@ GPA: 3.38
 ## 💼 Professional Experience
 
 ### Assistant Coach IT
+
 **PT Coursenet Bangun Indonesia**  
 September 2023 – Present
 
 Supporting IT training activities, Learning Management System assistance, participant guidance, and webinar preparation.
 
 ### Data Analyst Trade Marketing
+
 **PT Akasha Wira International Tbk**  
 December 2023 – October 2024
 
 Managing and analyzing national sales key measures, distributor data, sales reporting, master data, and distributor-related system processes.
 
 ### Data Science Machine Learning Mentor
+
 **PT Teknologi Bangsa Cerdas**  
 January 2022 – April 2023
 
 Providing training and guidance in statistical analysis and machine learning methods, including prediction, classification, and clustering.
 
 ### Mitra Data Controller – Internship
+
 **Badan Pusat Statistik Kota Bandung**  
 October 2020 – January 2021
 
@@ -280,9 +294,11 @@ Supporting the 2020 Population Census data entry, geographic map digitization an
 ## 📜 Certifications & Professional Development
 
 ### 1. Data Analysis Fullstack Intensive Bootcamp
+
 **MySkill** | July 2023 – August 2023
 
 Learning areas:
+
 - Basic Statistics
 - Business Metrics
 - Data Preparation
@@ -292,9 +308,11 @@ Learning areas:
 Technologies: Google Sheets, PostgreSQL, BigQuery, SQL, Python, Jupyter Notebook, and Google Colab.
 
 ### 2. Microcredential Certification – Associate Data Scientist
+
 **Kemendikbud** | November 2021 – December 2021
 
 Learning areas:
+
 - Artificial Intelligence Technology, Applications, and Methods
 - Data Preparation
 - Machine Learning Model Development
@@ -304,9 +322,11 @@ Learning areas:
 Technologies and algorithms: Python, Linear Regression, SVM, Decision Tree, ANN, RNN, and Deep Learning.
 
 ### 3. Webinar & Workshop Regresi Linier Berganda dengan R Statistics Cloud
+
 **Universitas Persada Indonesia** | November 2020
 
 Learning areas:
+
 - R Statistics Cloud Practical Workshop
 - Statistical Analysis
 - Multiple Linear Regression
@@ -360,20 +380,34 @@ App_Arjun_Portfolio/
 - Back-to-top button.
 - Dynamic copyright year.
 
+## 🗂️ Project Filter Categories
+
+The Projects section contains 16 cards organized into the following filters:
+
+| Filter             | Project cards  | Total |
+| ------------------ | -------------- | ----: |
+| All Projects       | 01–16          |    16 |
+| Game               | 02, 03, 04, 05 |     4 |
+| Web Development    | 01, 06         |     2 |
+| Data Science       | 08–16          |     9 |
+| Internet of Things | 07             |     1 |
+
+Each project card uses a `data-category` attribute in `index.html`. The filter buttons use matching `data-filter` values, and `assets/js/script.js` handles filtering and the active button state.
+
 ---
 
 ## ⚙️ Technologies Used to Build This Portfolio
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website structure |
-| CSS3 | Styling and responsive layouts |
-| JavaScript | Interactions and dynamic functionality |
-| Font Awesome | Interface and technology icons |
-| Google Fonts | Typography |
-| Git | Version control |
-| GitHub | Source code repository |
-| GitHub Pages | Static website hosting |
+| Technology   | Purpose                                |
+| ------------ | -------------------------------------- |
+| HTML5        | Website structure                      |
+| CSS3         | Styling and responsive layouts         |
+| JavaScript   | Interactions and dynamic functionality |
+| Font Awesome | Interface and technology icons         |
+| Google Fonts | Typography                             |
+| Git          | Version control                        |
+| GitHub       | Source code repository                 |
+| GitHub Pages | Static website hosting                 |
 
 ---
 
