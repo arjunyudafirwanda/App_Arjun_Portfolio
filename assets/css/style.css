@@ -6876,3 +6876,68 @@ html[data-theme="light"] {
 .art-math-adventure .art-content p {
   color: rgba(255, 255, 255, 0.83);
 }
+
+.art-junior-smart-city {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(155, 255, 218, 0.2),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(85, 185, 255, 0.22),
+      transparent 28%
+    ),
+    linear-gradient(135deg, #102d3d 0%, #17616c 52%, #278f78 100%);
+}
+
+.art-junior-smart-city::before {
+  content: "⌂";
+  position: absolute;
+  top: -35px;
+  right: 25px;
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 28px;
+  color: rgba(255, 255, 255, 0.13);
+  font-size: 110px;
+  font-weight: 800;
+  transform: rotate(8deg);
+  pointer-events: none;
+}
+
+.art-junior-smart-city::after {
+  content: "SMART • GREEN • FUTURE";
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  color: rgba(255, 255, 255, 0.18);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  pointer-events: none;
+}
+
+.art-junior-smart-city .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-junior-smart-city .art-content > i {
+  color: #9df2ce;
+}
+
+.art-junior-smart-city .art-content h3 {
+  color: #ffffff;
+}
+
+.art-junior-smart-city .art-content span,
+.art-junior-smart-city .art-content p {
+  color: rgba(255, 255, 255, 0.85);
+}
