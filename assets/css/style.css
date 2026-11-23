@@ -6941,3 +6941,69 @@ html[data-theme="light"] {
 .art-junior-smart-city .art-content p {
   color: rgba(255, 255, 255, 0.85);
 }
+
+.art-ai-detective {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(120, 115, 255, 0.24),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(35, 205, 215, 0.2),
+      transparent 29%
+    ),
+    linear-gradient(135deg, #11162f 0%, #272b58 52%, #15536b 100%);
+}
+
+.art-ai-detective::before {
+  content: "?";
+  position: absolute;
+  top: -35px;
+  right: 24px;
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.12);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 110px;
+  font-weight: 800;
+  transform: rotate(9deg);
+  pointer-events: none;
+}
+
+.art-ai-detective::after {
+  content: "INVESTIGATE • ANALYZE • DISCOVER";
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  color: rgba(255, 255, 255, 0.22);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  pointer-events: none;
+}
+
+.art-ai-detective .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-ai-detective .art-content > i {
+  color: #8ce9f0;
+}
+
+.art-ai-detective .art-content h3 {
+  color: #ffffff;
+}
+
+.art-ai-detective .art-content span,
+.art-ai-detective .art-content p {
+  color: rgba(255, 255, 255, 0.84);
+}
