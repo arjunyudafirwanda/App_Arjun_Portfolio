@@ -7139,3 +7139,69 @@ html[data-theme="light"] {
 .art-money-smart .art-content p {
   color: rgba(255, 255, 255, 0.86);
 }
+
+.art-science-quest {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(91, 221, 235, 0.23),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(145, 116, 255, 0.24),
+      transparent 29%
+    ),
+    linear-gradient(135deg, #101b36 0%, #183d65 52%, #176d78 100%);
+}
+
+.art-science-quest::before {
+  content: "✧";
+  position: absolute;
+  top: -35px;
+  right: 24px;
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.15);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 105px;
+  font-weight: 800;
+  transform: rotate(10deg);
+  pointer-events: none;
+}
+
+.art-science-quest::after {
+  content: "OBSERVE • EXPERIMENT • DISCOVER";
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  color: rgba(255, 255, 255, 0.23);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  pointer-events: none;
+}
+
+.art-science-quest .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-science-quest .art-content > i {
+  color: #77e5e9;
+}
+
+.art-science-quest .art-content h3 {
+  color: #ffffff;
+}
+
+.art-science-quest .art-content span,
+.art-science-quest .art-content p {
+  color: rgba(255, 255, 255, 0.86);
+}
