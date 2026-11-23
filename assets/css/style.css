@@ -7022,12 +7022,7 @@ html[data-theme="light"] {
       rgba(151, 105, 255, 0.23),
       transparent 29%
     ),
-    linear-gradient(
-      135deg,
-      #101B35 0%,
-      #173B65 52%,
-      #175F75 100%
-    );
+    linear-gradient(135deg, #101b35 0%, #173b65 52%, #175f75 100%);
 }
 
 .art-cyber-safety::before {
@@ -7067,14 +7062,80 @@ html[data-theme="light"] {
 }
 
 .art-cyber-safety .art-content > i {
-  color: #75E4EF;
+  color: #75e4ef;
 }
 
 .art-cyber-safety .art-content h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .art-cyber-safety .art-content span,
 .art-cyber-safety .art-content p {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.art-money-smart {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(139, 232, 181, 0.22),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(255, 211, 120, 0.2),
+      transparent 29%
+    ),
+    linear-gradient(135deg, #142f36 0%, #1c6558 52%, #278c70 100%);
+}
+
+.art-money-smart::before {
+  content: "$";
+  position: absolute;
+  top: -35px;
+  right: 24px;
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.14);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 105px;
+  font-weight: 800;
+  transform: rotate(10deg);
+  pointer-events: none;
+}
+
+.art-money-smart::after {
+  content: "SAVE • BUDGET • GROW";
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  color: rgba(255, 255, 255, 0.23);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  pointer-events: none;
+}
+
+.art-money-smart .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-money-smart .art-content > i {
+  color: #a8f0c5;
+}
+
+.art-money-smart .art-content h3 {
+  color: #ffffff;
+}
+
+.art-money-smart .art-content span,
+.art-money-smart .art-content p {
   color: rgba(255, 255, 255, 0.86);
 }
