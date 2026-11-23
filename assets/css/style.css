@@ -7205,3 +7205,69 @@ html[data-theme="light"] {
 .art-science-quest .art-content p {
   color: rgba(255, 255, 255, 0.86);
 }
+
+.art-geoquest {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(112, 220, 198, 0.23),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(91, 156, 244, 0.23),
+      transparent 29%
+    ),
+    linear-gradient(135deg, #122e3d 0%, #185c70 52%, #258b79 100%);
+}
+
+.art-geoquest::before {
+  content: "◎";
+  position: absolute;
+  top: -35px;
+  right: 24px;
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.15);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  transform: rotate(10deg);
+  pointer-events: none;
+}
+
+.art-geoquest::after {
+  content: "EXPLORE • DISCOVER • PROTECT";
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  color: rgba(255, 255, 255, 0.23);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  pointer-events: none;
+}
+
+.art-geoquest .art-content {
+  position: relative;
+  z-index: 1;
+}
+
+.art-geoquest .art-content > i {
+  color: #8be4d2;
+}
+
+.art-geoquest .art-content h3 {
+  color: #ffffff;
+}
+
+.art-geoquest .art-content span,
+.art-geoquest .art-content p {
+  color: rgba(255, 255, 255, 0.86);
+}
